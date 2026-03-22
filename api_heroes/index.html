@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>All Heros App</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <h1>Heroes</h1>
+
+  <input type="text" id="buscador" placeholder="Buscar película...">
+
+  <div id="contenedor"></div>
+
+  <!-- modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="cerrar">&times;</span>
+      <img id="modal-imagen" src="" alt="imagen héroe">
+      <h2 id="nombre_de_heroe"></h2>
+      <p><strong>Nombre Civil:</strong> <span id="nombre_civil"></span></p>
+      <p><strong>Bando:</strong> <span id="bando"></span></p>
+      <p><strong>Aliados:</strong> <span id="aliados"></span></p>
+      <p><strong>Primera Aparicion:</strong> <span id="primera_aparicion"></span></p>
+      <div class="powerstats">
+        <h3>Powerstats</h3>
+      
+        <div class="stat">
+          <span>Inteligencia</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-intelligence"></div>
+          </div>
+          <span id="val-intelligence"></span>
+        </div>
+      
+        <div class="stat">
+          <span>Fuerza</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-strength"></div>
+          </div>
+          <span id="val-strength"></span>
+        </div>
+      
+        <div class="stat">
+          <span>Velocidad</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-speed"></div>
+          </div>
+          <span id="val-speed"></span>
+        </div>
+      
+        <div class="stat">
+          <span>Durabilidad</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-durability"></div>
+          </div>
+          <span id="val-durability"></span>
+        </div>
+      
+        <div class="stat">
+          <span>Poder</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-power"></div>
+          </div>
+          <span id="val-power"></span>
+        </div>
+      
+        <div class="stat">
+          <span>Combate</span>
+          <div class="barra-fondo">
+            <div class="barra-relleno" id="stat-combat"></div>
+          </div>
+          <span id="val-combat"></span>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
