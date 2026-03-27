@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/mapa.css">
 </head>
 
 <body>
+    <header>
+
+        </div>
+    </header>
     <div class="contenedor" id="contenedor_de_carrusel">
         <div class="lista_de_elementos">
             <div class="elemento elemento_activo">
@@ -75,8 +81,8 @@
         <!-- flechas de navegacion -->
         <div class="flechas_navegacion">
             <button id="prev">
-                <</button>
-                    <button id="next">></button>
+                <</button> <button id="next">>
+            </button>
         </div>
         <!-- thumbnail -->
         <div class="thumbnail">
@@ -108,7 +114,19 @@
             </div>
         </div>
     </div>
+    <section class="seccion_mapa">
+        <h2 class="titulo_mapa">Encuéntranos aquí</h2>
+        <div class="contenedor_mapa">
+            <iframe
+                src="https://www.google.com/maps/d/u/0/embed?mid=1btjhppsAxFnqcaGS_XdN8yI0xKIcwKQ&usp=sharing"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/header.js"></script>
+
 </body>
 
 </html>

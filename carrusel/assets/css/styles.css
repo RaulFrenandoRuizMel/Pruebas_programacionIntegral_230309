@@ -5,6 +5,20 @@
     color: #eee;
 }
 
+/*
+header{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    font-size: 3.2em;
+    width: 30%;
+    
+}*/
+
 .contenedor {
     height: 100vh;
     margin-top: 0;
