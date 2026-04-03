@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles_menu.css">
+</head>
+<body>
+    <form action="guardar_usuario.php" method="post" class="contenedor_formulario">
+        <h2>Registrar Usuario</h2>
+
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Correo:</label><br>
+        <input type="email" name="correo" required><br><br>
+
+        <label>Matrícula:</label><br>
+        <input type="text" name="matricula" required><br><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" name="contraseña" required><br><br>
+
+        <label>Fecha de ingreso:</label><br>
+        <input type="date" name="fecha_de_ingreso" required><br><br>
+
+        <label>Créditos cursados:</label><br>
+        <input type="number" name="creditos_cursados" min="0" required><br><br>
+
+        <label>Campus:</label><br>
+        <select name="campus" required>
+            <option value="">-- Selecciona tu Campus --</option>
+            <option value="1">IADA</option>
+            <option value="2">IIT</option>
+            <option value="3">ICB</option>
+            <option value="4">ICSA</option>
+        </select><br><br>
+
+        <label>Nivel de inglés:</label><br>
+        <select name="nivel_de_ingles" required>
+            <option value="">-- Selecciona nivel --</option>
+            <option value="A-1">A-1</option>
+            <option value="A-2">A-2</option>
+            <option value="B-1">B-1</option>
+            <option value="B-2">B-2</option>
+            <option value="C-1">C-1</option>
+            <option value="C-2">C-2</option>
+        </select><br><br>
+
+        <label>Segundo idioma:</label><br>
+        <select name="segundo_idioma" required>
+            <option value="">-- Selecciona idioma --</option>
+            <option value="Ninguno">Ninguno</option>
+            <option value="Francés">Francés</option>
+            <option value="Alemán">Alemán</option>
+            <option value="Japonés">Japonés</option>
+            <option value="Portugués">Portugués</option>
+        </select><br><br>
+
+        <button type="submit">Guardar</button>
+        <button type="button" onclick="window.location.href='index.php'">Regresar a inicio</button>
+    </form>
+</body>
+</html>
