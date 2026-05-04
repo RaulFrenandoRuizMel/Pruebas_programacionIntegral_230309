@@ -14,10 +14,10 @@ document.getElementById('contact_form')
     emailjs.sendForm(serviceID, templateID, this)
     .then(()=>{
         btn.innerText='Enviar Cotizacion';
-        alert("Mensaje enviado con exito has contactado al grupp de servicio");
+        alert("Mensaje enviado con exito has contactado al grupo de servicio");
         this.reset();
     },(err) => {
-        btn.innerText = 'Enviar COtizacion';
+        btn.innerText = 'Enviar Cotizacion';
         alert(JSON.stringify(err));
     })
 })

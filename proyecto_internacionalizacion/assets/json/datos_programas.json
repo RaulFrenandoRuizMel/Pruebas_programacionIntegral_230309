@@ -1,0 +1,45 @@
+{
+    "programas": [
+        {
+            "id": "paris",
+            "nombre": "",
+            "descripcion": "Francia es considerada como una de las grandes potencias mundiales, tanto por su capacidad económica como por su impacto cultural al mundo. A su vez, es una potencia en ingeniería, donde grandes empresas de diseño tienen sede en este país. Además, es una potencia económica y cuenta con un nivel educativo muy alto. Su capital es París, donde puedes encontrar atracciones culturales tan grandes como a la Torre Eiffel, “Sacré Coer” y Versalles; miles de turistas año con año son albergados en la capital parisina. El país también es reconocido por sus vinos y su gastronomía sofisticada. Burdeos Su moneda es el euro, y su idioma principal es el francés, aunque en algunas partes suele ser muy común hacer mezcla del francés con el país adyacente.",
+            "bases_sep": [
+                {
+                    "edad": "Ser mayor de 18 años.",
+                    "inscripcion": "Estar inscrito en alguna licenciatura de la Instituciones Públicas de Educación Superior (IPES) señaladas en la convocatoria.",
+                    "adeudo": "Ser alumno/a regular (no adeudar asignaturas al momento del registro en el Sistema Único de Beneficiarios de Educación Superior -SUBES- y cursar las materias de acuerdo con el plan de estudios que corresponda).",
+                    "promedio": "Tener promedio general mínimo de 8.5 de calificación.",
+                    "creditos": "Contar al menos con el 50% de créditos concluidos y no más del 80% de créditos cursados.",
+                    "idioma": "Contar con un nivel mínimo de dominio del idioma francés B1 o su equivalente, y nivel mínimo de A2 en el idioma inglés.",
+                    "pasaporte": "Contar con pasaporte mexicano con vigencia superior al tiempo que dura la movilidad, o en su defecto, acreditar que se está realizando el trámite para la obtención del mismo."
+                }
+            ],
+            "proceso_previo": [
+                {
+                    "entrevista_cd_mx": [
+                        {
+                            "examen": "La primera etapa consiste en un examen en francés adaptativo llamado Evalang, es decir, las preguntas van adaptando su complejidad según las respuestas del candidato. El examen, que es en línea, consta de una parte gramática, otra de compresión escrita y finalmente compresión oral.",
+                            "escrito": "Una vez finalizado el examen obtendrás la calificación en 30 min, pero en este intervalo tendrás que redactar un documento referente a ciertos temas específicos seleccionados por un jurado. Esta redacción puede ser tanto en francés como en español, el objetivo es ver que tan centrado estás respecto a tus metas y como aplicarías los conocimientos generados en Francia para México o el mundo. Al finalizar esta etapa el jurado va a realizar una ponderación entre tu calificación y tu escrito. Esto con el fin de analizar si cuentas con las habilidades necesarias para pasar a las entrevistas. El veredicto se otorga en la misma sala donde realizaste tu examen, los candidatos nombrados son los que no pasan.",
+                            "entrevista_frances": "Posteriormente continua una entrevista en francés. Su duración es alrededor de 10 min; durante la misma tendrás que demostrar tus habilidades referentes al manejo del idioma, puesto que vas a tener que responder preguntas totalmente fuera de lo común de un margen académico y/o profesional.",
+                            "entrevista_español": "Finalmente realizarás una entrevista en español. Esta es la más extensa, su duración puede ser hasta de 25-30 min. Aquí vas a ser cuestionado de múltiples formas, para probar si tienes el carácter necesario. Las preguntas son capciosas, es importante ser asertivo a la hora de responder. Presta mucha atención a cada pregunta, puesto que algunas tienen como fin que te contradigas. Mantener una postura segura y tener un buen tono de voz te ayudarán al momento de compartir tus ideas."
+                        }
+                    ],
+                    "tramites":[
+                        {
+                            "visa":"La visa o “titre de séjour” se tramita en la Ciudad de México en el consulado francés. Al ser fechas propuestas por Campus France (CF), los administrativos del consulado van a estar dispuestos a ayudarte con toda la documentación que se te será solicitada. De manera que solo te presentes y entregues tu expediente completo. ",
+                            "documentos":"Es importante que antes de que te vayas apostilles tu acta de nacimiento, puesto que esto te será útil en el trámite de seguridad social y CAF, así como también hacer la traducción de tu acta apostillada. De igual forma, la universidad te notificará de todos los demás trámitesque necesites y te ayudará con ellos."
+                        }
+                    ]
+                }
+            ],
+            "vuelos":[
+                {
+                    "precios":"Generalmente, y de acuerdo al presupuesto con el que cuente la UACJ en el año de aplicación, la universidad se encargará de comprar el vuelo redondo de Ciudad Juárez a Ciudad de México. Por otro lado, y por lo regular, se contrata a alguna agencia de viajes para apoyo en el traslado a Francia (revisar las condiciones de la convocatoria en el año de aplicación). El traslado de Vichy a la ciudad en la que realizarás la estancia correrá por tu cuenta; ya sea que llegues en tren o en autobús (con recurso de la beca MEXFITEC).",
+                    "duracion":"El vuelo tiene una duración de 11 horas; por lo general y según la convocatoria, serás guiado por el personal de la agencia de viajes, quienes te brindarán soporte en ambos aeropuertos. Los documentos que deberás cargar en todo momento es tu pasaporte ya visado, puesto que ese será solicitado en migración, y tu pase de abordar.",
+                    "equipaje":"El límite de equipaje documentado es de 23 kg, aunque procura no llevar menos de esa cantidad; el equipaje de mano es recomendable que no exceda el límite de 10 kg. "
+                }
+            ]
+        }
+    ]
+}

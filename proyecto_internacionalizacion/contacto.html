@@ -27,19 +27,35 @@
 
                 <input type="text" id="user_name" name="name" placeholder="Tu Nombre" required>
                 <input type="text" id="user_email" name="email" placeholder="Tu Correo" required>
-                <input type="text" id="user_email" name="email" placeholder="Tu Correo" required>
+                <input type="text" id="id_matricula" name="matricula" placeholder="Tu Matricula" required>
+
+                <input type="text" id="cantidad_de_creditos" name="creditos" placeholder="Cantidad de Creditos Obtenidos" required>
 
                 <select name="glass_type" id="glass_type">
-                    <option value="francia"></option>
-                    <option value="italia">Vidrio Laminado</option>
-                    <option value="alemania">Vidrio Espejo</option>
-                    <option value="colombia">Vidrio Doble Cristalizado</option>
+                    <option value="francia">Programa Universidad De Paris</option>
+                    <option value="italia">Programa Universidad De Florencia</option>
+                    <option value="alemania">Programa Universidad Karlsruher Institut fur Technologie</option>
+                    <option value="usa">Programa Universidad De Nuevo Mexico</option>
+                    <option value="colombia">Programa Universidad De Antioquia</option>
                 </select>
 
-                <textarea name="message" id="message" placeholder="Detalles del pedido (medios, espesor....)"
+                <select name="carrera" id="nombre_carrera">
+                    <option value="francia">DDMI </option>
+                    <option value="italia">Mecatronica</option>
+                    <option value="alemania">Mecanica</option>
+                    <option value="usa">Arquitectura</option>
+                    <option value="colombia">Dise;o Grafico</option>
+                    <option value="colombia">Dise;o Industrial</option>
+                    <option value="colombia">Produccion Musical</option>
+                    <option value="colombia">Aeronautica Grafico</option>
+                    <option value="colombia">Ambiental</option>
+                    <option value="colombia">Ing. Biomedica</option>
+                </select>
+
+                <textarea name="message" id="message" placeholder="Detalles de la consulta"
                     required></textarea>
 
-                <button type="submit" id="button">Envair COtizacion</button>
+                <button type="submit" id="button">Enviar</button>
             </form>
         </div>
     </main>
@@ -48,7 +64,7 @@
 
     </footer>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/contacto.js"></script>
     <script src="./assets/js/header.js"></script>
     <script src="./assets/js/footer.js"></script>
 </body>
