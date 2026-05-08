@@ -23,7 +23,7 @@
 main {
     width: 100%;
     height: auto;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
 }
 
 .recorrido_de_paginas {
@@ -47,6 +47,8 @@ main {
     display: flex;
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .ficha_del_pais .portada_contenedor {
@@ -65,7 +67,7 @@ main {
     margin-right: 5%;
 }
 
-.informacion_del_libro {
+.informacion_del_programa {
     width: 75%;
     height: 100%;
 }
@@ -74,7 +76,7 @@ main {
     margin-top: 25px;
 }
 
-.autor_y_fecha {
+.periodos_instancia {
     border-bottom: solid 2px black;
     width: 100%;
     height: 50px;
@@ -86,7 +88,7 @@ main {
     font-size: 36pt;
 }
 
-.fecha_del_libro {
+.siguiente_instancia {
     width: 50%;
 
     font-size: 24pt;
@@ -96,7 +98,7 @@ main {
     font-style: italic;
 }
 
-.autor_del_libro {
+.ultima_instancia {
     width: 25%;
 
     font-family: "nexa", sans-serif;
@@ -106,138 +108,25 @@ main {
     font-size: 24pt;
 }
 
-.sinopsis {
+.descripcion {
     border-bottom: solid 2px black;
     margin-top: 25px;
     height: 40%;
     margin-bottom: 25px;
 }
 
-.sinopsis h2 {
+.descripcion h2 {
     font-size: 2.5em;
     font-family: "nexa", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-.sinopsis p {
+.descripcion p {
     font-size: 1.5em;
     font-family: "nexa", sans-serif;
     font-weight: 300;
     font-style: normal;
-}
-
-.cantidad_y_calificacion {
-    border-bottom: solid 2px black;
-    height: 15%;
-    display: flex;
-}
-
-.cantidad_y_calificacion p {
-    font-size: 24pt;
-    font-family: "nexa", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.nombres_cantidad_y_calificacion {
-    width: 75%;
-}
-
-.numeros_cantidad_y_calificacion {
-    width: 5%;
-}
-
-.numeros_cantidad_y_calificacion p {
-    font-family: fuenteTekoBold;
-    color: #c2a83e;
-}
-
-.icono_estrella {
-    width: 15%;
-    height: 40px;
-}
-
-.icono_estrella img {
-    width: 15%;
-    height: 40px;
-}
-
-.boton_nueva_resena button {
-    width: 40%;
-    height: 50px;
-    border-radius: 35px;
-    font-size: 2em;
-    background-color: #2f3a3f;
-    color: #c2a83e;
-    cursor: pointer;
-}
-
-.boton_nueva_resena button:hover {
-    width: 50%;
-    height: 62.5px;
-    border-radius: 35px;
-    font-size: 3em;
-    background-color: #354d55;
-    color: #f1d049;
-    cursor: pointer;
-}
-
-.boton_nueva_resena {
-    width: 100%;
-    height: 20%;
-    align-items: center;
-    display: flex;
-}
-
-.seccion_resena {
-    margin-top: 15px;
-    width: 100%;
-    height: 100px;
-    background-color: #2f3a3f;
-    display: flex;
-    padding: 15px;
-    align-items: center;
-}
-
-.seccion_resena h2 {
-    font-family: "nexa", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-
-    color: white;
-}
-
-.contenedorResenas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.plantilla_resena {
-    width: 90%;
-    height: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.datos_de_la_resena {
-    width: 100%;
-    height: auto;
-    border: solid 2px #aaaaaa;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: white;
-}
-
-.inputs_de_la_resena {
-    width: 100%;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 60px;
 }
 
 .usuario {

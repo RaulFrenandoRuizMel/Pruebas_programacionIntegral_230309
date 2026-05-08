@@ -1,9 +1,11 @@
 {
     "programas": [
         {
-            "id": "paris",
-            "nombre": "",
+            "id": "Francia",
+            "nombre": "Francia",
             "descripcion": "Francia es considerada como una de las grandes potencias mundiales, tanto por su capacidad económica como por su impacto cultural al mundo. A su vez, es una potencia en ingeniería, donde grandes empresas de diseño tienen sede en este país. Además, es una potencia económica y cuenta con un nivel educativo muy alto. Su capital es París, donde puedes encontrar atracciones culturales tan grandes como a la Torre Eiffel, “Sacré Coer” y Versalles; miles de turistas año con año son albergados en la capital parisina. El país también es reconocido por sus vinos y su gastronomía sofisticada. Burdeos Su moneda es el euro, y su idioma principal es el francés, aunque en algunas partes suele ser muy común hacer mezcla del francés con el país adyacente.",
+            "evaluacion":"El sistema educativo francés tiene una evaluación de 0 a 20, donde el 10 es la calificación mínima aprobatoria. Los exámenes sorpresa son frecuentes y por lo general, el examen final vale la mayor parte de la calificación. En algunos casos, se trabaja con un proyecto final que cuenta como el 66 % de la calificación final y que es laborioso.",
+            "choque_cultutal":"Es recomendado ir preparado a todo, es decir, saber afrontar cualquier situación que se pudiera presentar teniendo en cuenta que estarás en un país distinto con costumbres distintas, por lo que es importante llevar una buena preparación en cuanto a inteligencia emocional. Es importante que hables bien el francés para que tengas más oportunidad de entablar conversaciones con tus compañeros, puesto que rara vez los franceses dominan muy bien el inglés. Por lo regular, los franceses en general son muy amables y no dudan en ayudarte si lo necesitas, aunque no tienden a abrir sus círculos amistosos muy fácilmente, sin embargo, puedes intentar involucrarte en eventos y actividades extra-clase.",
             "bases_sep": [
                 {
                     "edad": "Ser mayor de 18 años.",
@@ -38,6 +40,178 @@
                     "precios":"Generalmente, y de acuerdo al presupuesto con el que cuente la UACJ en el año de aplicación, la universidad se encargará de comprar el vuelo redondo de Ciudad Juárez a Ciudad de México. Por otro lado, y por lo regular, se contrata a alguna agencia de viajes para apoyo en el traslado a Francia (revisar las condiciones de la convocatoria en el año de aplicación). El traslado de Vichy a la ciudad en la que realizarás la estancia correrá por tu cuenta; ya sea que llegues en tren o en autobús (con recurso de la beca MEXFITEC).",
                     "duracion":"El vuelo tiene una duración de 11 horas; por lo general y según la convocatoria, serás guiado por el personal de la agencia de viajes, quienes te brindarán soporte en ambos aeropuertos. Los documentos que deberás cargar en todo momento es tu pasaporte ya visado, puesto que ese será solicitado en migración, y tu pase de abordar.",
                     "equipaje":"El límite de equipaje documentado es de 23 kg, aunque procura no llevar menos de esa cantidad; el equipaje de mano es recomendable que no exceda el límite de 10 kg. "
+                }
+            ]
+        },
+        {
+            "id": "Estados Unidos",
+            "nombre": "Estados Unidos",
+            "descripcion": "Estados Unidos es una de las principales potencias mundiales en términos económicos, tecnológicos y educativos. Alberga algunas de las universidades más prestigiosas del mundo y destaca por su innovación en áreas como ingeniería, negocios y ciencias. Su capital es Washington D.C., aunque ciudades como Nueva York, Los Ángeles y Boston son importantes centros culturales y académicos. El país es conocido por su diversidad cultural y oportunidades profesionales. Su moneda es el dólar estadounidense y el idioma principal es el inglés.",
+            "evaluacion": "El sistema educativo estadounidense generalmente utiliza una escala de calificaciones de A a F, donde A representa excelencia y F reprobación. También se utiliza el GPA (Grade Point Average) en una escala de 0.0 a 4.0. Las evaluaciones incluyen tareas, proyectos, participación en clase y exámenes parciales y finales.",
+            "choque_cultutal": "Es importante adaptarse a un entorno multicultural y competitivo. La comunicación suele ser directa y se valora la participación activa en clase. Los estudiantes suelen ser independientes y es común trabajar en equipo. Es recomendable tener un buen nivel de inglés para integrarse académica y socialmente.",
+            "bases_sep": [
+                {
+                    "edad": "Ser mayor de 18 años.",
+                    "inscripcion": "Estar inscrito en una licenciatura en una IPES participante.",
+                    "adeudo": "Ser alumno regular sin adeudo de materias.",
+                    "promedio": "Tener promedio mínimo de 8.5.",
+                    "creditos": "Contar con al menos el 50% de créditos y no más del 80%.",
+                    "idioma": "Contar con nivel mínimo de inglés B2 (TOEFL o equivalente).",
+                    "pasaporte": "Contar con pasaporte vigente o comprobante de trámite."
+                }
+            ],
+            "proceso_previo": [
+                {
+                    "entrevista_cd_mx": [
+                        {
+                            "examen": "Se realiza un examen de inglés que evalúa comprensión lectora, auditiva y gramática.",
+                            "escrito": "Se redacta un ensayo sobre objetivos académicos y profesionales.",
+                            "entrevista_frances": "No aplica.",
+                            "entrevista_español": "Se realiza una entrevista en español enfocada en motivación, adaptación y metas."
+                        }
+                    ],
+                    "tramites": [
+                        {
+                            "visa": "La visa de estudiante (tipo F-1) se tramita en la embajada o consulado de Estados Unidos.",
+                            "documentos": "Se requiere formulario I-20, comprobante financiero, acta de nacimiento y otros documentos solicitados."
+                        }
+                    ]
+                }
+            ],
+            "vuelos": [
+                {
+                    "precios": "El costo del vuelo puede variar dependiendo de la ciudad destino, generalmente cubierto parcialmente por la institución.",
+                    "duracion": "La duración del vuelo varía entre 3 y 6 horas dependiendo de la ciudad destino.",
+                    "equipaje": "Se permite generalmente una maleta documentada de 23 kg y equipaje de mano de 10 kg."
+                }
+            ]
+        },
+        {
+            "id": "Colombia",
+            "nombre": "Colombia",
+            "descripcion": "Colombia es un país latinoamericano con gran riqueza cultural y biodiversidad. Su sistema educativo ha crecido significativamente en calidad y acceso. Su capital es Bogotá, y otras ciudades importantes incluyen Medellín y Cali. El país es reconocido por su calidez humana, café de alta calidad y diversidad cultural. Su moneda es el peso colombiano y el idioma oficial es el español.",
+            "evaluacion": "El sistema educativo colombiano utiliza una escala de 0 a 5, donde 3.0 es la calificación mínima aprobatoria. Se evalúa mediante trabajos, exámenes y participación.",
+            "choque_cultutal": "La adaptación suele ser sencilla debido a la similitud cultural con México. Sin embargo, es importante adaptarse a modismos locales y dinámicas académicas. La interacción social es muy abierta y amigable.",
+            "bases_sep": [
+                {
+                    "edad": "Ser mayor de 18 años.",
+                    "inscripcion": "Estar inscrito en una IPES.",
+                    "adeudo": "No adeudar materias.",
+                    "promedio": "Promedio mínimo de 8.0.",
+                    "creditos": "50% a 80% de créditos.",
+                    "idioma": "No se requiere idioma adicional.",
+                    "pasaporte": "Pasaporte vigente."
+                }
+            ],
+            "proceso_previo": [
+                {
+                    "entrevista_cd_mx": [
+                        {
+                            "examen": "No se requiere examen de idioma.",
+                            "escrito": "Ensayo sobre motivación.",
+                            "entrevista_frances": "No aplica.",
+                            "entrevista_español": "Entrevista enfocada en adaptación cultural y objetivos."
+                        }
+                    ],
+                    "tramites": [
+                        {
+                            "visa": "Dependiendo de la duración, puede requerirse visa de estudiante.",
+                            "documentos": "Pasaporte, carta de aceptación y comprobantes."
+                        }
+                    ]
+                }
+            ],
+            "vuelos": [
+                {
+                    "precios": "Costos accesibles, en algunos casos apoyados por la institución.",
+                    "duracion": "Entre 4 y 6 horas.",
+                    "equipaje": "23 kg documentado y 10 kg de mano."
+                }
+            ]
+        },
+        {
+            "id": "Alemania",
+            "nombre": "Alemania",
+            "descripcion": "Alemania es una potencia europea destacada en ingeniería, tecnología e investigación. Cuenta con universidades de alto prestigio y programas accesibles. Su capital es Berlín y otras ciudades importantes incluyen Múnich y Hamburgo. Su moneda es el euro y el idioma oficial es el alemán.",
+            "evaluacion": "El sistema alemán utiliza una escala de 1.0 a 5.0, donde 1.0 es la mejor calificación y 4.0 es la mínima aprobatoria.",
+            "choque_cultutal": "La cultura alemana valora la puntualidad, disciplina y organización. Es importante adaptarse a un entorno estructurado y formal. El idioma alemán es clave para la integración.",
+            "bases_sep": [
+                {
+                    "edad": "Mayor de 18 años.",
+                    "inscripcion": "Inscrito en IPES.",
+                    "adeudo": "Sin materias pendientes.",
+                    "promedio": "Mínimo 8.5.",
+                    "creditos": "50%-80%.",
+                    "idioma": "Nivel mínimo B1 de alemán o B2 de inglés.",
+                    "pasaporte": "Vigente."
+                }
+            ],
+            "proceso_previo": [
+                {
+                    "entrevista_cd_mx": [
+                        {
+                            "examen": "Examen de idioma alemán o inglés.",
+                            "escrito": "Ensayo académico.",
+                            "entrevista_frances": "No aplica.",
+                            "entrevista_español": "Evaluación de perfil y adaptación."
+                        }
+                    ],
+                    "tramites": [
+                        {
+                            "visa": "Visa de estudiante en embajada alemana.",
+                            "documentos": "Seguro médico, carta de aceptación, comprobantes financieros."
+                        }
+                    ]
+                }
+            ],
+            "vuelos": [
+                {
+                    "precios": "Generalmente cubiertos parcialmente.",
+                    "duracion": "Entre 11 y 13 horas.",
+                    "equipaje": "23 kg documentado."
+                }
+            ]
+        },
+        {
+            "id": "Italia",
+            "nombre": "Italia",
+            "descripcion": "Italia es reconocida por su historia, arte y educación en áreas como diseño, arquitectura e ingeniería. Su capital es Roma, y otras ciudades importantes incluyen Milán y Florencia. Su moneda es el euro y el idioma oficial es el italiano.",
+            "evaluacion": "El sistema italiano utiliza una escala de 0 a 30, donde 18 es la calificación mínima aprobatoria.",
+            "choque_cultutal": "La cultura italiana es expresiva y social. Es importante adaptarse a su estilo de comunicación y ritmo de vida. El idioma italiano facilita la integración.",
+            "bases_sep": [
+                {
+                    "edad": "Mayor de 18 años.",
+                    "inscripcion": "Inscrito en IPES.",
+                    "adeudo": "Sin adeudos.",
+                    "promedio": "Mínimo 8.0.",
+                    "creditos": "50%-80%.",
+                    "idioma": "Nivel B1 de italiano o inglés.",
+                    "pasaporte": "Vigente."
+                }
+            ],
+            "proceso_previo": [
+                {
+                    "entrevista_cd_mx": [
+                        {
+                            "examen": "Examen de idioma.",
+                            "escrito": "Ensayo motivacional.",
+                            "entrevista_frances": "No aplica.",
+                            "entrevista_español": "Entrevista general."
+                        }
+                    ],
+                    "tramites": [
+                        {
+                            "visa": "Visa de estudiante en consulado italiano.",
+                            "documentos": "Carta de aceptación, seguro médico y comprobantes."
+                        }
+                    ]
+                }
+            ],
+            "vuelos": [
+                {
+                    "precios": "Variables según temporada.",
+                    "duracion": "Entre 11 y 13 horas.",
+                    "equipaje": "23 kg documentado."
                 }
             ]
         }
