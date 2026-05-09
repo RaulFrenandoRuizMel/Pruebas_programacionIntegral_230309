@@ -10,7 +10,10 @@ header.innerHTML = `<div class="logo_header">
                 <a href="menu.html">HOME</a>
             </div>
             <div class="enlaces">
-                <a href="">MI CUENTA</a>
+                <a href="contacto.html">CONTACTO</a>
+            </div>
+            <div class="enlaces">
+                <a href="ficha_identidad.html">FICHA IDENTIDAD</a>
             </div>
         </nav>`
 

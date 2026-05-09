@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/mapa.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./assets/css/slider_fichas.css">
+    <link rel="stylesheet" href="./assets/css/slider_fichas.css">
 </head>
 
 <body>
@@ -170,58 +170,147 @@
         </div>
     </div>
     <div class="separador_superior "></div>
-    <div class="separador_inferior"></div>
-    <div class="container swiper">
+    <div class="container swiper" id="contenedor_uacj">
+        <h3>UACJ</h3>
+        <div class="slider-wrapper" id="slider_wrapper">
+            <div class="card-list swiper-wrapper" id="card_list">
+                <div class="card-item swiper-slide">
+                    <img src="images/img-1.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">James Wilson</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-2.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Sarah Johnson</h2>
+                    <p class="user-profession">Graphic Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-3.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Michael Brown</h2>
+                    <p class="user-profession">Project Manager</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-4.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Emily Davis</h2>
+                    <p class="user-profession">Marketing Specialist</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-5.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Christopher Garcia</h2>
+                    <p class="user-profession">Data Scientist</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-6.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Richard Wilson</h2>
+                    <p class="user-profession">Product Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+    <div class="separador_superior "></div>
+    <div class="container swiper" id="contenedor_icb">
         <h3>ICB</h3>
         <div class="slider-wrapper">
-          <div class="card-list swiper-wrapper">
-            <div class="card-item swiper-slide">
-              <img src="images/img-1.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">James Wilson</h2>
-              <p class="user-profession">Software Developer</p>
-              <button class="message-button">Message</button>
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="images/img-1.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">James Wilson</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-2.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Sarah Johnson</h2>
+                    <p class="user-profession">Graphic Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
             </div>
-            <div class="card-item swiper-slide">
-              <img src="images/img-2.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">Sarah Johnson</h2>
-              <p class="user-profession">Graphic Designer</p>
-              <button class="message-button">Message</button>
-            </div>
-            <div class="card-item swiper-slide">
-              <img src="images/img-3.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">Michael Brown</h2>
-              <p class="user-profession">Project Manager</p>
-              <button class="message-button">Message</button>
-            </div>
-            <div class="card-item swiper-slide">
-              <img src="images/img-4.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">Emily Davis</h2>
-              <p class="user-profession">Marketing Specialist</p>
-              <button class="message-button">Message</button>
-            </div>
-            <div class="card-item swiper-slide">
-              <img src="images/img-5.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">Christopher Garcia</h2>
-              <p class="user-profession">Data Scientist</p>
-              <button class="message-button">Message</button>
-            </div>
-            <div class="card-item swiper-slide">
-              <img src="images/img-6.jpg" alt="User Image" class="user-image">
-              <h2 class="user-name">Richard Wilson</h2>
-              <p class="user-profession">Product Designer</p>
-              <button class="message-button">Message</button>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-slide-button swiper-button-prev"></div>
-          <div class="swiper-slide-button swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
         </div>
-      </div>
-      <!-- Linking SwiperJS script -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <!-- Linking custom script -->
-      <script src="script.js"></script>
-    </body>
+    </div>
+    <div class="separador_superior "></div>
+    <div class="container swiper" id="contenedor_iada">
+        <h3>IADA</h3>
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="images/img-1.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">James Wilson</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-2.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Sarah Johnson</h2>
+                    <p class="user-profession">Graphic Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="separador_superior "></div>
+    <div class="container swiper" id="contenedor_IIT">
+        <h3>IIT</h3>
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="images/img-1.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">James Wilson</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-2.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Sarah Johnson</h2>
+                    <p class="user-profession">Graphic Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="separador_superior "></div>
+    <div class="container swiper" id="contenedor_icsa">
+        <h3>ICSA</h3>
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="images/img-1.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">James Wilson</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="images/img-2.jpg" alt="User Image" class="user-image">
+                    <h2 class="nombre_universidad">Sarah Johnson</h2>
+                    <p class="user-profession">Graphic Designer</p>
+                    <button class="message-button">Message</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+
     <section class="seccion_mapa">
         <h2 class="titulo_mapa">Encuéntranos aquí</h2>
         <div class="contenedor_mapa">
@@ -232,14 +321,22 @@
         </div>
     </section>
 
-    <footer>
-      
-    </footer>
 
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/header.js"></script>
-    <script src="./assets/js/footer.js"></script>
-    <script src="./assets/js/slider_fichas.js"></script>
+
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+</body>
+
+<footer>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/header.js"></script>
+<script src="./assets/js/footer.js"></script>
+<script src="./assets/js/slider_fichas.js"></script>
+<script src="./assets/js/conexion_api_menu_sliders.js"></script>
 
 </body>
 
