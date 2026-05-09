@@ -1,0 +1,76 @@
+{
+    "convenios": [
+        {
+            "ICB": [
+                {
+                    "id": 1,
+                    "nombre": "Alianza Mexicana para la Conservación de la Vida Silvestre",
+                    "pais": "México",
+                    "imagen": "ICB"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Asociación Ganadera Local de Juárez",
+                    "pais": "México",
+                    "imagen": "ICB"
+                },
+                {
+                    "id": 1,
+                    "nombre": "Colegio de Postgraduados, Campus San Luis Potosí",
+                    "pais": "México",
+                    "imagen": "ICB"
+                },
+                {
+                    "id": 1,
+                    "nombre": "Grupo Industrial Cadena S. de R.L. MI",
+                    "pais": "México",
+                    "imagen": "ICB"
+                },
+                {
+                    "id": 1,
+                    "nombre": "Instituto de Ecología, S.C.",
+                    "pais": "México",
+                    "imagen": "ICB"
+                },
+                {
+                    "id": 1,
+                    "nombre": "Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias",
+                    "pais": "México",
+                    "imagen": "ICB"
+                }
+            ],
+            "ICSA": [
+                {
+                    "id": 1,
+                    "nombre": "",
+                    "pais": "",
+                    "imagen": "ICSA"
+                }
+            ],
+            "IIT": [
+                {
+                    "id": 1,
+                    "nombre": "",
+                    "pais": "",
+                    "imagen": "IIT"
+                }
+            ],
+            "IADA": [
+                {
+                    "id": 1,
+                    "nombre": "",
+                    "pais": "",
+                    "imagen": "IADA"
+                }
+            ],
+            "UACJ": [
+                {
+                    "id": 1,
+                    "nombre": "",
+                    "pais": "",
+                    "imagen": "UACJ"
+                }
+            ]
+        }
+    ]
+}

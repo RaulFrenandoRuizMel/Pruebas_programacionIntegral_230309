@@ -26,21 +26,6 @@ main {
     /*background-color: #f2f2f2;*/
 }
 
-.recorrido_de_paginas {
-    display: flex;
-    width: 100%;
-    height: 150px;
-    padding: 15px;
-    align-items: center;
-    font-family: fuenteTekoMedium;
-}
-
-.recorrido_de_paginas p {
-    font-size: 2em;
-    font-family: fuenteTekoMedium;
-
-}
-
 .ficha_del_pais {
     margin-top: 0px;
     height: 745px;
@@ -51,7 +36,7 @@ main {
     margin-top: 25px;
 }
 
-.ficha_del_pais .portada_contenedor {
+.ficha_del_pais .portada_contenedor, .portada_contenedor_bases_sep, .portada_contenedor_proceso_previo {
     width: 30%;
     height: 100%;
     margin-right: 3%;
@@ -67,7 +52,7 @@ main {
     margin-right: 5%;
 }
 
-.informacion_del_programa {
+.informacion_del_programa, .requisitos_sep, .requisitos_previos {
     width: 75%;
     height: 100%;
 }
@@ -111,7 +96,7 @@ main {
 .descripcion {
     border-bottom: solid 2px black;
     margin-top: 25px;
-    height: 40%;
+    height: 80%;
     margin-bottom: 25px;
 }
 
@@ -128,128 +113,3 @@ main {
     font-weight: 300;
     font-style: normal;
 }
-
-.usuario {
-    display: flex;
-    flex-direction: row;
-    width: 35%;
-    align-items: center;
-}
-
-.usuario p {
-    width: 35%;
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.1em;
-}
-
-.usuario input {
-    width: 70%;
-    margin-bottom: 0;
-}
-
-.asunto {
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    margin-left: 5%;
-    align-items: center;
-}
-
-.asunto p {
-    width: 15%;
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.1em;
-
-}
-
-.asunto input {
-    width: 85%;
-    margin-bottom: 0;
-
-}
-
-.fecha {
-    display: flex;
-    flex-direction: row;
-    width: 15%;
-    margin-left: 5%;
-    align-items: center;
-}
-
-.fecha p {
-    width: 25%;
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.1em;
-
-}
-
-.fecha input {
-    width: 70%;
-    align-items: center;
-    margin-bottom: 0;
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.calificacion {
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    align-items: center;
-}
-
-.calificacion p {
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.1em;
-
-}
-
-.calificacion img {
-    height: 100%;
-}
-
-.texto_de_la_resena {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.texto_de_la_resena p {
-    width: 15%;
-    font-family: "nexa", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.1em;
-
-}
-
-.cuerpo_de_la_resena {
-    height: 200px;
-    width: 90%;
-    border-radius: 5px;
-}
-
-.numero_de_resena {
-    font-family: "nexa", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-
-    font-size: 24pt;
-}
-
-/*.usuario_reseñador,.asunto_de_la_reseña,.fecha_de_la_reseña,.cuerpo_de_la_resena
-{
-    padding-left: 25px;
-}
-*/

@@ -7,17 +7,14 @@ header.innerHTML = `<div class="logo_header">
         </div>
         <nav class="navegador_header">
             <div id="ir_a_inicio" class="activo">
-                <a href="index.html">HOME</a>
-            </div>
-            <div class="enlaces" id="mis_reseñas_usuario">
-                <a href="">RESEÑAS</a>
+                <a href="menu.html">HOME</a>
             </div>
             <div class="enlaces">
                 <a href="">MI CUENTA</a>
             </div>
         </nav>`
 
-const mis_reseñas_usuario = document.querySelector("#mis_reseñas_usuario");
+/*const mis_reseñas_usuario = document.querySelector("#mis_reseñas_usuario");
 
 mis_reseñas_usuario.addEventListener("click", (event) => {
     event.preventDefault();
@@ -30,4 +27,4 @@ mis_reseñas_usuario.addEventListener("click", (event) => {
     } else {
         window.location.href = "reseñas.html";
     }
-});
+});*/
