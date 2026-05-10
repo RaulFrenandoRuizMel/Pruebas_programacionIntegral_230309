@@ -6,43 +6,43 @@
                     "id": 1,
                     "nombre": "Alianza Mexicana para la Conservación de la Vida Silvestre",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 2,
                     "nombre": "Asociación Ganadera Local de Juárez",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 3,
                     "nombre": "Colegio de Postgraduados, Campus San Luis Potosí",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 4,
                     "nombre": "Grupo Industrial Cadena S. de R.L. MI",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 5,
                     "nombre": "Instituto de Ecología, S.C.",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 6,
                     "nombre": "Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias",
                     "pais": "Mexico",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 },
                 {
                     "id": 7,
                     "nombre": "Universidad de Lleida",
                     "pais": "España",
-                    "imagen": "ICB.png"
+                    "imagen": "ICB"
                 }
             ],
             "ICSA": [
@@ -50,37 +50,37 @@
                     "id": 1,
                     "nombre": "Instituto Nacional de Administración Pública, A.C.",
                     "pais": "Mexico",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 },
                 {
                     "id": 2,
                     "nombre": "San Diego State University",
                     "pais": "Estados Unidos",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 },
                 {
                     "id": 3,
                     "nombre": "Universidad de la República",
                     "pais": "Uruguay",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 },
                 {
                     "id": 4,
                     "nombre": "Universidad de Paris",
                     "pais": "Francia",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 },
                 {
                     "id": 5,
                     "nombre": "Universidad de Torino",
                     "pais": "Italia",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 },
                 {
                     "id": 6,
                     "nombre": "Universidad Nacional Autónoma de México",
                     "pais": "Mexico",
-                    "imagen": "ICSA.png"
+                    "imagen": "ICSA"
                 }
             ],
             "IIT": [
@@ -88,37 +88,37 @@
                     "id": 1,
                     "nombre": "Instituto Tecnológico de Ciudad Juárez",
                     "pais": "Mexico",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 },
                 {
                     "id": 2,
                     "nombre": "Karlsruher Institut fur Technologie (KIT)",
                     "pais": "Alemania",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 },
                 {
                     "id": 3,
                     "nombre": "Institute of Physics of the National Academy of Sciences of the Kyrgyz Republic",
                     "pais": "Rusia",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 },
                 {
                     "id": 4,
                     "nombre": "Centro de Investigación en Materiales Avanzados S.C. (CIMAV)",
                     "pais": "Mexico",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 },
                 {
                     "id": 5,
                     "nombre": "Instituto de Geofísica- UNAM",
                     "pais": "Mexico",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 },
                 {
                     "id": 6,
                     "nombre": "Instituto Nacional de Ecología y Cambio Climático INECC",
                     "pais": "Mexico",
-                    "imagen": "IIT.png"
+                    "imagen": "IIT"
                 }
             ],
             "IADA": [
@@ -126,19 +126,19 @@
                     "id": 1,
                     "nombre": "Universidad de Florencia",
                     "pais": "Italia",
-                    "imagen": "IADA.png"
+                    "imagen": "IADA"
                 },
                 {
                     "id": 2,
                     "nombre": "Universidad de Guanajuato",
                     "pais": "Mexico",
-                    "imagen": "IADA.png"
+                    "imagen": "IADA"
                 },
                 {
                     "id": 3,
                     "nombre": "Universidad de Napoles Federico II",
                     "pais": "Italia",
-                    "imagen": "IADA.png"
+                    "imagen": "IADA"
                 }
             ],
             "UACJ": [
@@ -146,31 +146,31 @@
                     "id": 1,
                     "nombre": "Academia Internacional de Investigadores Forenses",
                     "pais": "Mexico",
-                    "imagen": "UACJ.png"
+                    "imagen": "UACJ"
                 },
                 {
                     "id": 2,
                     "nombre": "CAVILAM - Alliance Francaise",
                     "pais": "Francia",
-                    "imagen": "UACJ.png"
+                    "imagen": "UACJ"
                 },
                 {
                     "id": 3,
                     "nombre": "Conestoga College Institute of Technology and Advanced Learning",
                     "pais": "Canada",
-                    "imagen": "UACJ.png"
+                    "imagen": "UACJ"
                 },
                 {
                     "id": 4,
                     "nombre": "Fundación Universitaria Autónoma de las Américas",
                     "pais": "Colombia",
-                    "imagen": "UACJ.png"
+                    "imagen": "UACJ"
                 },
                 {
                     "id": 5,
                     "nombre": "Idaho State University",
                     "pais": "Estados Unidos",
-                    "imagen": "UACJ.png"
+                    "imagen": "UACJ"
                 }
             ]
         }
