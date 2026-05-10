@@ -1,7 +1,7 @@
 const header = document.querySelector("header");
 
 header.innerHTML = `<div class="logo_header">
-            <a id="logo_ir_a_inicio" href="/index.html" >
+            <a id="logo_ir_a_inicio" href="/menu.html" >
                 <img class="logo" src="./assets/images/logotipo_uacj.png" alt="">
             </a>
         </div>

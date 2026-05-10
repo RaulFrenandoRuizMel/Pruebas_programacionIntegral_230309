@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.card-list .card-item .user-image {
+.card-list .card-item .campus_image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -50,7 +50,7 @@
   padding: 4px;
 }
 
-.card-list .card-item .user-profession {
+.card-list .card-item .pais_convenio {
   font-size: 1.15rem;
   color: #e3e3e3;
   font-weight: 500;

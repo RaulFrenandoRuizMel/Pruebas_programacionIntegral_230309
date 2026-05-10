@@ -3,6 +3,8 @@
         {
             "id": "Francia",
             "nombre": "Francia",
+            "ultima_instancia":"2026-01",
+            "siguiente_instancia":"2026-02",
             "descripcion": "Francia es considerada como una de las grandes potencias mundiales, tanto por su capacidad económica como por su impacto cultural al mundo. A su vez, es una potencia en ingeniería, donde grandes empresas de diseño tienen sede en este país. Además, es una potencia económica y cuenta con un nivel educativo muy alto. Su capital es París, donde puedes encontrar atracciones culturales tan grandes como a la Torre Eiffel, “Sacré Coer” y Versalles; miles de turistas año con año son albergados en la capital parisina. El país también es reconocido por sus vinos y su gastronomía sofisticada. Burdeos Su moneda es el euro, y su idioma principal es el francés, aunque en algunas partes suele ser muy común hacer mezcla del francés con el país adyacente.",
             "evaluacion":"El sistema educativo francés tiene una evaluación de 0 a 20, donde el 10 es la calificación mínima aprobatoria. Los exámenes sorpresa son frecuentes y por lo general, el examen final vale la mayor parte de la calificación. En algunos casos, se trabaja con un proyecto final que cuenta como el 66 % de la calificación final y que es laborioso.",
             "choque_cultutal":"Es recomendado ir preparado a todo, es decir, saber afrontar cualquier situación que se pudiera presentar teniendo en cuenta que estarás en un país distinto con costumbres distintas, por lo que es importante llevar una buena preparación en cuanto a inteligencia emocional. Es importante que hables bien el francés para que tengas más oportunidad de entablar conversaciones con tus compañeros, puesto que rara vez los franceses dominan muy bien el inglés. Por lo regular, los franceses en general son muy amables y no dudan en ayudarte si lo necesitas, aunque no tienden a abrir sus círculos amistosos muy fácilmente, sin embargo, puedes intentar involucrarte en eventos y actividades extra-clase.",
@@ -23,7 +25,7 @@
                         {
                             "examen": "La primera etapa consiste en un examen en francés adaptativo llamado Evalang, es decir, las preguntas van adaptando su complejidad según las respuestas del candidato. El examen, que es en línea, consta de una parte gramática, otra de compresión escrita y finalmente compresión oral.",
                             "escrito": "Una vez finalizado el examen obtendrás la calificación en 30 min, pero en este intervalo tendrás que redactar un documento referente a ciertos temas específicos seleccionados por un jurado. Esta redacción puede ser tanto en francés como en español, el objetivo es ver que tan centrado estás respecto a tus metas y como aplicarías los conocimientos generados en Francia para México o el mundo. Al finalizar esta etapa el jurado va a realizar una ponderación entre tu calificación y tu escrito. Esto con el fin de analizar si cuentas con las habilidades necesarias para pasar a las entrevistas. El veredicto se otorga en la misma sala donde realizaste tu examen, los candidatos nombrados son los que no pasan.",
-                            "entrevista_frances": "Posteriormente continua una entrevista en francés. Su duración es alrededor de 10 min; durante la misma tendrás que demostrar tus habilidades referentes al manejo del idioma, puesto que vas a tener que responder preguntas totalmente fuera de lo común de un margen académico y/o profesional.",
+                            "entrevista_segundo_idioma": "Posteriormente continua una entrevista en francés. Su duración es alrededor de 10 min; durante la misma tendrás que demostrar tus habilidades referentes al manejo del idioma, puesto que vas a tener que responder preguntas totalmente fuera de lo común de un margen académico y/o profesional.",
                             "entrevista_español": "Finalmente realizarás una entrevista en español. Esta es la más extensa, su duración puede ser hasta de 25-30 min. Aquí vas a ser cuestionado de múltiples formas, para probar si tienes el carácter necesario. Las preguntas son capciosas, es importante ser asertivo a la hora de responder. Presta mucha atención a cada pregunta, puesto que algunas tienen como fin que te contradigas. Mantener una postura segura y tener un buen tono de voz te ayudarán al momento de compartir tus ideas."
                         }
                     ],
@@ -46,6 +48,8 @@
         {
             "id": "Estados Unidos",
             "nombre": "Estados Unidos",
+            "ultima_instancia":"2026-01",
+            "siguiente_instancia":"2026-02",
             "descripcion": "Estados Unidos es una de las principales potencias mundiales en términos económicos, tecnológicos y educativos. Alberga algunas de las universidades más prestigiosas del mundo y destaca por su innovación en áreas como ingeniería, negocios y ciencias. Su capital es Washington D.C., aunque ciudades como Nueva York, Los Ángeles y Boston son importantes centros culturales y académicos. El país es conocido por su diversidad cultural y oportunidades profesionales. Su moneda es el dólar estadounidense y el idioma principal es el inglés.",
             "evaluacion": "El sistema educativo estadounidense generalmente utiliza una escala de calificaciones de A a F, donde A representa excelencia y F reprobación. También se utiliza el GPA (Grade Point Average) en una escala de 0.0 a 4.0. Las evaluaciones incluyen tareas, proyectos, participación en clase y exámenes parciales y finales.",
             "choque_cultutal": "Es importante adaptarse a un entorno multicultural y competitivo. La comunicación suele ser directa y se valora la participación activa en clase. Los estudiantes suelen ser independientes y es común trabajar en equipo. Es recomendable tener un buen nivel de inglés para integrarse académica y socialmente.",
@@ -66,7 +70,7 @@
                         {
                             "examen": "Se realiza un examen de inglés que evalúa comprensión lectora, auditiva y gramática.",
                             "escrito": "Se redacta un ensayo sobre objetivos académicos y profesionales.",
-                            "entrevista_frances": "No aplica.",
+                            "entrevista_segundo_idioma": "No aplica.",
                             "entrevista_español": "Se realiza una entrevista en español enfocada en motivación, adaptación y metas."
                         }
                     ],
@@ -89,6 +93,8 @@
         {
             "id": "Colombia",
             "nombre": "Colombia",
+            "ultima_instancia":"2026-01",
+            "siguiente_instancia":"2026-02",
             "descripcion": "Colombia es un país latinoamericano con gran riqueza cultural y biodiversidad. Su sistema educativo ha crecido significativamente en calidad y acceso. Su capital es Bogotá, y otras ciudades importantes incluyen Medellín y Cali. El país es reconocido por su calidez humana, café de alta calidad y diversidad cultural. Su moneda es el peso colombiano y el idioma oficial es el español.",
             "evaluacion": "El sistema educativo colombiano utiliza una escala de 0 a 5, donde 3.0 es la calificación mínima aprobatoria. Se evalúa mediante trabajos, exámenes y participación.",
             "choque_cultutal": "La adaptación suele ser sencilla debido a la similitud cultural con México. Sin embargo, es importante adaptarse a modismos locales y dinámicas académicas. La interacción social es muy abierta y amigable.",
@@ -109,7 +115,7 @@
                         {
                             "examen": "No se requiere examen de idioma.",
                             "escrito": "Ensayo sobre motivación.",
-                            "entrevista_frances": "No aplica.",
+                            "entrevista_segundo_idioma": "No aplica.",
                             "entrevista_español": "Entrevista enfocada en adaptación cultural y objetivos."
                         }
                     ],
@@ -132,6 +138,8 @@
         {
             "id": "Alemania",
             "nombre": "Alemania",
+            "ultima_instancia":"2026-01",
+            "siguiente_instancia":"2026-02",
             "descripcion": "Alemania es una potencia europea destacada en ingeniería, tecnología e investigación. Cuenta con universidades de alto prestigio y programas accesibles. Su capital es Berlín y otras ciudades importantes incluyen Múnich y Hamburgo. Su moneda es el euro y el idioma oficial es el alemán.",
             "evaluacion": "El sistema alemán utiliza una escala de 1.0 a 5.0, donde 1.0 es la mejor calificación y 4.0 es la mínima aprobatoria.",
             "choque_cultutal": "La cultura alemana valora la puntualidad, disciplina y organización. Es importante adaptarse a un entorno estructurado y formal. El idioma alemán es clave para la integración.",
@@ -152,7 +160,7 @@
                         {
                             "examen": "Examen de idioma alemán o inglés.",
                             "escrito": "Ensayo académico.",
-                            "entrevista_frances": "No aplica.",
+                            "entrevista_segundo_idioma": "No aplica.",
                             "entrevista_español": "Evaluación de perfil y adaptación."
                         }
                     ],
@@ -175,6 +183,8 @@
         {
             "id": "Italia",
             "nombre": "Italia",
+            "ultima_instancia":"2026-01",
+            "siguiente_instancia":"2026-02",
             "descripcion": "Italia es reconocida por su historia, arte y educación en áreas como diseño, arquitectura e ingeniería. Su capital es Roma, y otras ciudades importantes incluyen Milán y Florencia. Su moneda es el euro y el idioma oficial es el italiano.",
             "evaluacion": "El sistema italiano utiliza una escala de 0 a 30, donde 18 es la calificación mínima aprobatoria.",
             "choque_cultutal": "La cultura italiana es expresiva y social. Es importante adaptarse a su estilo de comunicación y ritmo de vida. El idioma italiano facilita la integración.",
@@ -195,7 +205,7 @@
                         {
                             "examen": "Examen de idioma.",
                             "escrito": "Ensayo motivacional.",
-                            "entrevista_frances": "No aplica.",
+                            "entrevista_segundo_idioma": "No aplica.",
                             "entrevista_español": "Entrevista general."
                         }
                     ],

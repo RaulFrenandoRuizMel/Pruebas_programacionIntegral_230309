@@ -15,8 +15,9 @@ const contenedor_iit  = document.querySelector("#contenedor_IIT");
 const plantilla_card_item = document.querySelector(".card-item");
 
 // ─── Llena una sección con tarjetas clonadas ──────────────────────────────────
+//     categoria: "uacj" | "icb" | "iada" | "icsa" | "iit"
 
-function llenarSeccion(contenedor, listaConvenios) {
+function llenarSeccion(contenedor, listaConvenios, categoria) {
     const cardList = contenedor.querySelector(".card-list.swiper-wrapper");
     cardList.innerHTML = "";
 
@@ -25,23 +26,27 @@ function llenarSeccion(contenedor, listaConvenios) {
         cardList.appendChild(clone);
 
         clone.querySelector(".nombre_universidad").textContent = convenio.nombre;
-        clone.querySelector(".user-profession").textContent    = convenio.pais;
-        clone.addEventListener("click", () => {
-            window.location.href = `fichaPais.html?id=&categoria=herejia_de_horus`;
-        });
+        clone.querySelector(".pais_convenio").textContent    = convenio.pais;
 
-        const img = clone.querySelector(".user-image");
+        const img = clone.querySelector(".campus_image");
         img.src = `./assets/images/logotipos_campus/${convenio.imagen}.png`;
         img.alt = convenio.nombre;
+
+        // ─── Redirige a fichaPais con el id y categoría correspondientes ──────
+        clone.addEventListener("click", () => {
+            window.location.href = `fichaPais.html?id=${convenio.id}&categoria=${categoria}`;
+        });
     });
 }
-// ─── Inicializa Swiper apuntando al .slider-wrapper interno ──────────────────
-//
+
+// ─── Inicializa Swiper ────────────────────────────────────────────────────────
+
 function crearSwiper(contenedor) {
     const sliderWrapper = contenedor.querySelector(".slider-wrapper");
 
     new Swiper(sliderWrapper, {
-        loop: true,
+        loop: false,
+        rewind: true,
         grabCursor: true,
         spaceBetween: 30,
         pagination: {
@@ -60,26 +65,25 @@ function crearSwiper(contenedor) {
         },
     });
 }
+
 // ─── Fetch ────────────────────────────────────────────────────────────────────
+
 fetch("./assets/json/convenios.json")
     .then(recurso => recurso.json())
     .then(archivo => {
         const datos = archivo.convenios[0];
 
-        // 1. Llenar el DOM con las tarjetas reales
-        llenarSeccion(contenedor_uacj, datos.UACJ);
-        llenarSeccion(contenedor_icb,  datos.ICB);
-        llenarSeccion(contenedor_iada, datos.IADA);
-        llenarSeccion(contenedor_icsa, datos.ICSA);
-        llenarSeccion(contenedor_iit,  datos.IIT);
+        // Se pasa la categoría en minúsculas como tercer argumento
+        llenarSeccion(contenedor_uacj, datos.UACJ, "uacj");
+        llenarSeccion(contenedor_icb,  datos.ICB,  "icb");
+        llenarSeccion(contenedor_iada, datos.IADA, "iada");
+        llenarSeccion(contenedor_icsa, datos.ICSA, "icsa");
+        llenarSeccion(contenedor_iit,  datos.IIT,  "iit");
 
-        // 2. Inicializar Swiper cuando el DOM ya está listo
         crearSwiper(contenedor_uacj);
         crearSwiper(contenedor_icb);
         crearSwiper(contenedor_iada);
         crearSwiper(contenedor_icsa);
         crearSwiper(contenedor_iit);
-
-        
     })
     .catch(error => console.error("Error al cargar convenios.json:", error));
