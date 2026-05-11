@@ -21,6 +21,7 @@ main{
     margin-bottom: 10%;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 .titulo{
@@ -34,22 +35,46 @@ text-align: center;
 .container_identidad h1{
     color: aliceblue;
     width: 50%;
+    font-size: 30pt;
 }
 
 .container_identidad p{
     text-align: center;
     color: aliceblue;
     width: 100%;
+    font-size: 30pt;
 }
 
 .img_container_foto{
     width: 50%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img_container_foto img{
     width: 100%;
     height: 100%;
-        border-radius: 15px;
+    border-radius: 15px;
+}
 
+.img_container_qr{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+
+
+
+.img_container_qr img{
+    height: 90%;
 }

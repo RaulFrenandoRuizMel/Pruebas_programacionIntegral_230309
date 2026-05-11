@@ -16,6 +16,10 @@
   animation-delay: 1s;
   color: aliceblue;
   font-size: 75px;
+  border-bottom: solid 2px aliceblue;
+      width: 13%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
 .card-list .card-item {
