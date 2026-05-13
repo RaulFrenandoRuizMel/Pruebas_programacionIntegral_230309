@@ -72,4 +72,109 @@ header
     height: 90%;
 }
 
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
 
+/* Laptop / Desktop grande */
+@media (max-width: 1280px) {
+    header {
+        height: 90px;
+    }
+
+    .navegador_header {
+        width: 45%;
+    }
+
+    .navegador_header a {
+        font-size: 1.8em;
+    }
+
+    .logo_header {
+        width: 20%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    header {
+        height: 70px;
+        padding: 0 10px;
+    }
+
+    .logo_header {
+        width: 35%;
+    }
+
+     .logo_header img{
+        width: 100%;
+    }
+
+    .navegador_header {
+        width: 65%;
+        padding: 1.5%;
+    }
+
+    .navegador_header a {
+        font-size: 1.3em;
+    }
+}
+
+/* Tablet pequeña / Móvil grande */
+@media (max-width: 576px) {
+    header {
+        height: 65px;
+        padding: 0 8px;
+    }
+
+    .logo_header {
+        width: 35%;
+    }
+
+    .navegador_header {
+        width: 60%;
+        padding: 1%;
+        gap: 5px;
+    }
+
+    .navegador_header a {
+        font-size: 1.2em;
+    }
+
+    .activo a {
+        text-decoration: underline 3px solid goldenrod;
+    }
+}
+
+/* Móvil estándar */
+@media (max-width: 480px) {
+    header {
+        height: 60px;
+        flex-wrap: wrap;
+        padding: 0 6px;
+    }
+
+    .logo_header {
+        width: 40%;
+        height: 100%;
+    }
+
+    .logo_header img {
+        height: 80%;
+    }
+
+    .navegador_header {
+        width: 58%;
+        height: 100%;
+        padding: 1%;
+        gap: 4px;
+    }
+
+    .navegador_header a {
+        font-size: 1em;
+    }
+
+    .activo a {
+        text-decoration: underline 2px solid goldenrod;
+    }
+}

@@ -48,3 +48,81 @@ textarea{
     padding: 20px;
     margin-top: 20px;
 }
+
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
+
+/* Laptop / Desktop grande */
+@media (max-width: 1280px) {
+    .contenedor_contacto {
+        width: 35%;
+        margin-left: 32.5%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .contenedor_contacto {
+        width: 60%;
+        margin-left: 20%;
+        padding: 25px;
+    }
+}
+
+/* Tablet pequeña / Móvil grande */
+@media (max-width: 576px) {
+    .contenedor_contacto {
+        width: 80%;
+        margin-left: 10%;
+        padding: 20px;
+    }
+
+    input, button {
+        height: 45px;
+        padding: 15px;
+    }
+
+    select {
+        height: 65px;
+        padding: 15px;
+    }
+
+    textarea {
+        height: 130px;
+        padding: 15px;
+    }
+}
+
+/* Móvil estándar */
+@media (max-width: 480px) {
+    .contenedor_contacto {
+        width: 90%;
+        margin-left: 5%;
+        padding: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h2, p, input, textarea {
+        height: auto;
+    }
+
+    input, button {
+        height: 44px;
+        padding: 12px;
+        margin-top: 15px;
+    }
+
+    select {
+        height: 60px;
+        padding: 12px;
+        margin-top: 15px;
+    }
+
+    textarea {
+        height: 120px;
+        padding: 12px;
+        margin-top: 15px;
+    }
+}

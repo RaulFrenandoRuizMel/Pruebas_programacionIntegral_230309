@@ -73,8 +73,145 @@ text-align: center;
 
 }
 
-
-
 .img_container_qr img{
     height: 90%;
+}
+
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
+
+/* Laptop / Desktop grande */
+@media (max-width: 1280px) {
+    .container_identidad {
+        width: 35%;
+        height: 80%;
+    }
+
+    .container_identidad h1 {
+        font-size: 26pt;
+    }
+
+    .container_identidad p {
+        font-size: 26pt;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    main {
+        height: auto;
+        max-height: 100vh;
+    }
+
+    .container_identidad {
+        width: 65%;
+        height: auto;
+        padding: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .container_identidad h1 {
+        font-size: 22pt;
+    }
+
+    .container_identidad p {
+        font-size: 20pt;
+    }
+
+    .img_container_foto {
+        width: 60%;
+        height: auto;
+    }
+
+    .img_container_qr {
+        height: auto;
+        padding: 3%;
+    }
+
+    .img_container_qr img {
+        height: 80px;
+    }
+}
+
+/* Tablet pequeña / Móvil grande */
+@media (max-width: 576px) {
+    .container_identidad {
+        width: 80%;
+        height: auto;
+        padding: 18px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .container_identidad h1 {
+        font-size: 18pt;
+    }
+
+    .container_identidad p {
+        font-size: 16pt;
+    }
+
+    .img_container_foto {
+        width: 65%;
+        height: auto;
+    }
+
+    .img_container_qr {
+        height: auto;
+        padding: 4%;
+    }
+
+    .img_container_qr img {
+        height: 65px;
+    }
+}
+
+/* Móvil estándar */
+@media (max-width: 480px) {
+    main {
+        height: auto;
+        max-height: 100vh;
+    }
+
+    .container_identidad {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_identidad h1 {
+        width: 100%;
+        font-size: 16pt;
+    }
+
+    .container_identidad p {
+        font-size: 14pt;
+    }
+
+    .img_container_foto {
+        width: 70%;
+        height: auto;
+    }
+
+    .img_container_qr {
+        height: auto;
+        padding: 4%;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .img_container_qr img {
+        height: 55px;
+    }
 }

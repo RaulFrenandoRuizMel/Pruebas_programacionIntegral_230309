@@ -161,3 +161,244 @@ main {
 .oculto{
     display: none;
 }
+
+
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
+
+/* Laptop / Desktop grande */
+@media (max-width: 1280px) {
+    .ficha_del_pais {
+        height: 700px;
+    }
+
+    .nombre_del_programa {
+        font-size: 32pt;
+    }
+
+    .siguiente_instancia,
+    .ultima_instancia {
+        font-size: 20pt;
+    }
+
+    .descripcion h2 {
+        font-size: 2.2em;
+    }
+
+    .descripcion p {
+        font-size: 1.3em;
+    }
+
+    .info_btn {
+        width: 35%;
+        font-size: 1.8em;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .ficha_del_pais {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .ficha_del_pais .portada_contenedor,
+    .portada_contenedor_bases_sep,
+    .portada_contenedor_proceso_previo {
+        width: 100%;
+        height: 280px;
+        margin-right: 0;
+        border-right: none;
+        border-bottom: solid 2px black;
+    }
+
+    .informacion_del_programa,
+    .requisitos_sep,
+    .requisitos_previos {
+        width: 100%;
+        height: auto;
+    }
+
+    .nombre_del_programa {
+        font-size: 28pt;
+    }
+
+    .siguiente_instancia,
+    .ultima_instancia {
+        font-size: 18pt;
+    }
+
+    .periodos_instancia {
+        height: auto;
+        padding: 8px 0;
+    }
+
+    .descripcion {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .descripcion h2 {
+        font-size: 2em;
+    }
+
+    .descripcion p {
+        font-size: 1.2em;
+    }
+
+    .boton_mas_informacion {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .info_btn {
+        width: 40%;
+        font-size: 1.6em;
+    }
+}
+
+/* Tablet pequeña / Móvil grande */
+@media (max-width: 576px) {
+    .ficha_del_pais {
+        flex-direction: column;
+        height: auto;
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .ficha_del_pais .portada_contenedor,
+    .portada_contenedor_bases_sep,
+    .portada_contenedor_proceso_previo {
+        width: 100%;
+        height: 220px;
+        margin-right: 0;
+        border-right: none;
+        border-bottom: solid 2px black;
+    }
+
+    .informacion_del_programa,
+    .requisitos_sep,
+    .requisitos_previos {
+        width: 100%;
+        height: auto;
+    }
+
+    .nombre_del_programa {
+        font-size: 22pt;
+    }
+
+    .siguiente_instancia,
+    .ultima_instancia {
+        font-size: 14pt;
+    }
+
+    .periodos_instancia {
+        height: auto;
+        padding: 6px 0;
+        flex-wrap: wrap;
+    }
+
+    .descripcion h2 {
+        font-size: 1.7em;
+    }
+
+    .descripcion p {
+        font-size: 1.1em;
+    }
+
+    .boton_mas_informacion {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .info_btn {
+        width: 50%;
+        font-size: 1.4em;
+        height: 45px;
+    }
+}
+
+/* Móvil estándar */
+@media (max-width: 480px) {
+    .ficha_del_pais {
+        flex-direction: column;
+        height: auto;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ficha_del_pais .portada_contenedor,
+    .portada_contenedor_bases_sep,
+    .portada_contenedor_proceso_previo {
+        width: 100%;
+        height: 180px;
+        margin-right: 0;
+        border-right: none;
+        border-bottom: solid 2px black;
+    }
+
+    .informacion_del_programa,
+    .requisitos_sep,
+    .requisitos_previos {
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo_autor_fecha {
+        margin-top: 15px;
+    }
+
+    .nombre_del_programa {
+        font-size: 18pt;
+    }
+
+    .siguiente_instancia,
+    .ultima_instancia {
+        width: 100%;
+        font-size: 12pt;
+    }
+
+    .periodos_instancia {
+        height: auto;
+        padding: 6px 0;
+        flex-direction: column;
+    }
+
+    .descripcion {
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .descripcion h2 {
+        font-size: 1.4em;
+    }
+
+    .descripcion p {
+        font-size: 1em;
+    }
+
+    .boton_mas_informacion {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .boton_mas_informacion h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .info_btn {
+        width: 65%;
+        font-size: 1.2em;
+        height: 44px;
+    }
+}
