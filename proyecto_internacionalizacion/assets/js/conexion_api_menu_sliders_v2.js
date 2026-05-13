@@ -15,9 +15,9 @@ const contenedor_iit  = document.querySelector("#contenedor_IIT");
 const plantilla_card_item = document.querySelector(".card-item");
 
 // ─── Llena una sección con tarjetas clonadas ──────────────────────────────────
-//     categoria: "uacj" | "icb" | "iada" | "icsa" | "iit"
+//     
 
-function llenarSeccion(contenedor, listaConvenios, categoria) {
+function llenarSeccion(contenedor, listaConvenios) {
     const cardList = contenedor.querySelector(".card-list.swiper-wrapper");
     cardList.innerHTML = "";
 
@@ -34,7 +34,7 @@ function llenarSeccion(contenedor, listaConvenios, categoria) {
 
         // ─── Redirige a fichaPais con el id y categoría correspondientes ──────
         clone.addEventListener("click", () => {
-            window.location.href = `fichaPais.html?id=${convenio.id}&categoria=${categoria}`;
+            window.location.href = `fichaPais.html?id=${convenio.id}&pais=${convenio.pais}`;
         });
     });
 }
@@ -74,11 +74,11 @@ fetch("./assets/json/convenios.json")
         const datos = archivo.convenios[0];
 
         // Se pasa la categoría en minúsculas como tercer argumento
-        llenarSeccion(contenedor_uacj, datos.UACJ, "uacj");
-        llenarSeccion(contenedor_icb,  datos.ICB,  "icb");
-        llenarSeccion(contenedor_iada, datos.IADA, "iada");
-        llenarSeccion(contenedor_icsa, datos.ICSA, "icsa");
-        llenarSeccion(contenedor_iit,  datos.IIT,  "iit");
+        llenarSeccion(contenedor_uacj, datos.UACJ);
+        llenarSeccion(contenedor_icb,  datos.ICB);
+        llenarSeccion(contenedor_iada, datos.IADA);
+        llenarSeccion(contenedor_icsa, datos.ICSA);
+        llenarSeccion(contenedor_iit,  datos.IIT);
 
         crearSwiper(contenedor_uacj);
         crearSwiper(contenedor_icb);

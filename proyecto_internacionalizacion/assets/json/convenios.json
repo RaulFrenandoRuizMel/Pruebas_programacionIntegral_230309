@@ -78,7 +78,7 @@
                 },
                 {
                     "id": 6,
-                    "nombre": "Universidad Nacional Autónoma de México",
+                    "nombre": "Universidad Nacional Autónoma de Mexico",
                     "pais": "Mexico",
                     "imagen": "ICSA"
                 }
@@ -169,7 +169,7 @@
                 {
                     "id": 5,
                     "nombre": "Idaho State University",
-                    "pais": "Estados Unidos",
+                    "pais": "Estados Unid",
                     "imagen": "UACJ"
                 }
             ]

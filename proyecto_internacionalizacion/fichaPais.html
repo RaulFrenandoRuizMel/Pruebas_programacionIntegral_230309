@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,13 +9,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/mapa.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./assets/css/ficha.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/fichaLibro.css">
-    <link rel="stylesheet" href="./css/nuevaResena.css">
-    <link rel="stylesheet" href="./css/mensaje_resena_vacia.css">
 
 
     <link rel="stylesheet" href="https://use.typekit.net/wgn8pks.css">
@@ -29,27 +23,30 @@
     <main>
         <div class="añadir_nueva_resena">
         </div>
-        
-        <div class="ficha_del_pais">
-            <div class="portada_contenedor">
 
+        <div class="ficha_del_pais">
+            <div class="portada_contenedor" id="">
+                <img id="portada_contenedor" src="" alt="">
             </div>
             <div class="informacion_del_programa">
                 <div class="titulo_autor_fecha">
-                    <p class="nombre_del_programa">Lorem ipsum dolor</p>
-                    <div class="periodos_instancia">
-                        <p class="ultima_instancia">00/00/20XX</p>
-                        <p class="siguiente_instancia">00/00/20XX</p>
+                    <p class="nombre_del_programa" id="nombre_del_programa">Lorem ipsum dolor</p>
+                    <div class="periodos_instancia" id="periodos_instancia">
+                        <p class="ultima_instancia" id="ultima_instancia">00/00/20XX</p>
+                        <p class="siguiente_instancia" id="siguiente_instancia">00/00/20XX</p>
                     </div>
                 </div>
-                <div class="descripcion">
+                <div class="descripcion" id="descripcion">
                     <h2>Descripcion</h2>
-                    <p class="sinopsis_del_programa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    <p class="sinopsis_del_programa" id="sinopsis_del_programa">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Hic
                         recusandae tempore fugiat minima
                         maiores, eos labore beatae? Harum reiciendis sed, laudantium perferendis voluptatibus voluptatum
                         aut
                         debitis officia maiores recusandae repudiandae?
-                    </p>
+                    </p><br>
+                    <p class="evaluacion" id="evaluacion"></p><br>
+                    <p class="choque_cultural" id="choque_cultural"></p>
                 </div>
             </div>
         </div>
@@ -59,14 +56,15 @@
             </div>
             <div class="requisitos_sep">
                 <div class="descripcion">
-                    <h2>Descripcion</h2>
-                    <p class="edad">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p class="inscripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p class="adeudo">adeudo:</p>
-                    <p class="promedio">promedio</p>
-                    <p class="creditos">creditos</p>
-                    <p class="idioma">idioma</p>
-                    <p class="pasaporte">pasaporte</p>
+                    <h2>Requisitos De La SEP</h2>
+                    <p class="edad" id="edad">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                    <p class="inscripcion" id="inscripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <p class="adeudo" id="adeudo">adeudo:</p><br>
+                    <p class="promedio" id="promedio">promedio</p><br>
+                    <p class="creditos" id="creditos">creditos</p><br>
+                    <p class="idioma" id="idioma">idioma</p><br>
+                    <p class="pasaporte" id="pasaporte">pasaporte</p><br>
                 </div>
             </div>
         </div>
@@ -77,47 +75,79 @@
             <div class="requisitos_previos">
                 <div class="descripcion">
                     <h2>Entrevista CDMX</h2>
-                    <p class="examen" id="examen">examen.</p>
-                    <p class="escrito" id="escrito">escrito</p>
-                    <p class="entrevista_frances" id="entrevista_frances">entrevista_frances:</p>
-                    <p class="entrevista_español" id="entrevista_español">entrevista_español</p>
+                    <p class="examen" id="examen"></p><br>
+                    <p class="escrito" id="escrito"></p><br>
+                    <p class="entrevista_frances" id="entrevista_frances"></p><br>
+                    <p class="entrevista_español" id="entrevista_español"></p><br>
                     <h2>Tramites</h2>
-                    <p class="visa" id="visa">visa.</p>
-                    <p class="documentos" id="documentos">documentos</p>
+                    <p class="visa" id="visa"></p><br>
+                    <p class="documentos" id="documentos"></p><br>
                 </div>
             </div>
         </div>
         <div class="separador_superior"></div>
-        <div class="ficha_del_pais">
-            <div class="portada_contenedor_proceso_previo">
-            </div>
-            <div class="requisitos_previos">
-                <div class="descripcion">
-                    <h2>Entrevista CDMX</h2>
-                    <p class="examen" id="examen">examen.</p>
-                    <p class="escrito" id="escrito">escrito</p>
-                    <p class="entrevista_frances" id="entrevista_frances">entrevista_frances:</p>
-                    <p class="entrevista_español" id="entrevista_español">entrevista_español</p>
-                    <h2>Tramites</h2>
-                    <p class="visa" id="visa">visa.</p>
-                    <p class="documentos" id="documentos">documentos</p>
+
+        <div>
+            <div class="ficha_del_pais">
+                <div class="portada_contenedor_proceso_previo">
+                </div>
+                <div class="requisitos_previos">
+                    <div class="descripcion">
+                        <h2>Vuelos</h2>
+                        <p class="precios" id="precios">examen.</p><br>
+                        <p class="duracion" id="duracion">escrito</p><br>
+                        <p class="equipaje" id="equipaje">entrevista_frances:</p><br>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="separador_superior"></div>
-        <div class="ficha_del_pais">
-            <div class="portada_contenedor_proceso_previo">
+        <div class="boton_mas_informacion" id="boton_mas_informacion">
+            <h2>Si requiere mas informacion pulse el siguiente boton</h2>
+            <button class="info_btn" id="info_btn">Mas Informacion</button>
+        </div>
+        <div>
+            <div class="ficha_del_pais oculto">
+                <div class="portada_contenedor_proceso_previo">
+                </div>
+                <div class="requisitos_previos">
+                    <div class="descripcion">
+                        <h2>Registro y Seleccion de Candidatos</h2>
+                        <p class="precios" id="precios">examen.</p><br>
+                        <p class="duracion" id="duracion">escrito</p><br>
+                        <p class="equipaje" id="equipaje">entrevista_frances:</p><br>
+                    </div>
+                </div>
             </div>
-            <div class="requisitos_previos">
-                <div class="descripcion">
-                    <h2>Entrevista CDMX</h2>
-                    <p class="examen" id="examen">examen.</p>
-                    <p class="escrito" id="escrito">escrito</p>
-                    <p class="entrevista_frances" id="entrevista_frances">entrevista_frances:</p>
-                    <p class="entrevista_español" id="entrevista_español">entrevista_español</p>
-                    <h2>Tramites</h2>
-                    <p class="visa" id="visa">visa.</p>
-                    <p class="documentos" id="documentos">documentos</p>
+        </div>
+                <div class="separador_superior oculto"></div>
+
+        <div>
+            <div class="ficha_del_pais oculto">
+                <div class="portada_contenedor_proceso_previo">
+                </div>
+                <div class="requisitos_previos">
+                    <div class="descripcion">
+                        <h2>Vuelos</h2>
+                        <p class="precios" id="precios">examen.</p><br>
+                        <p class="duracion" id="duracion">escrito</p><br>
+                        <p class="equipaje" id="equipaje">entrevista_frances:</p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="separador_superior oculto"></div>
+
+        <div>
+            <div class="ficha_del_pais oculto">
+                <div class="portada_contenedor_proceso_previo">
+                </div>
+                <div class="requisitos_previos">
+                    <div class="descripcion">
+                        <h2>Vuelos</h2>
+                        <p class="precios" id="precios">examen.</p><br>
+                        <p class="duracion" id="duracion">escrito</p><br>
+                        <p class="equipaje" id="equipaje">entrevista_frances:</p><br>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,6 +159,6 @@
 <script src="./assets/js/script.js"></script>
 <script src="./assets/js/header.js"></script>
 <script src="./assets/js/footer.js"></script>
-<script src="js/conectar_api_ficha_libro.js"></script>
-<script src="js/abrir_cerrar_pantallas.js"></script>
+<script src="./assets/js/ficha_pais.js"></script>
+
 </html>

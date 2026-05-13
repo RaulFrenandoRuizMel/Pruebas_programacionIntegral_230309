@@ -30,31 +30,36 @@ main {
     margin-top: 0px;
     height: 745px;
     display: flex;
-    width: 90%;
-    margin-left: 5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 25px;
     margin-top: 25px;
 }
 
-.ficha_del_pais .portada_contenedor, .portada_contenedor_bases_sep, .portada_contenedor_proceso_previo {
-    width: 30%;
+.ficha_del_pais .portada_contenedor,
+.portada_contenedor_bases_sep,
+.portada_contenedor_proceso_previo {
+    width: 40%;
     height: 100%;
     margin-right: 3%;
     border-right: solid 2px black;
-
     background-image: url("../img/imagenes/JPG/1289307.png");
     background-size: cover;
 }
 
-.portada {
-    width: 90%;
+.portada_contenedor img {
     height: 100%;
-    margin-right: 5%;
+    width: 100%;
 }
 
-.informacion_del_programa, .requisitos_sep, .requisitos_previos {
+.informacion_del_programa,
+.requisitos_sep,
+.requisitos_previos {
     width: 75%;
     height: 100%;
+    border-bottom: solid 2px black;
+
 }
 
 .titulo_autor_fecha {
@@ -84,7 +89,7 @@ main {
 }
 
 .ultima_instancia {
-    width: 25%;
+    width: 50%;
 
     font-family: "nexa", sans-serif;
     font-weight: 100;
@@ -94,9 +99,8 @@ main {
 }
 
 .descripcion {
-    border-bottom: solid 2px black;
     margin-top: 25px;
-    height: 80%;
+    height: 90%;
     margin-bottom: 25px;
 }
 
@@ -112,4 +116,48 @@ main {
     font-family: "nexa", sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+.boton_mas_informacion {
+    width: 61%;
+    margin: auto 2% 2% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000000;
+}
+
+.boton_mas_informacion h2 {
+    font-size: 2em;
+    font-family: "nexa", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.info_btn {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(190, 195, 199);
+    color: black;
+    font-size: 2em;
+    font-family: "nexa", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2%;
+}
+
+.info_btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    background-color: #496ea0;
+    color: aliceblue;
+}
+
+.oculto{
+    display: none;
 }

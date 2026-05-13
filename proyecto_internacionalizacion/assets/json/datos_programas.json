@@ -3,227 +3,362 @@
         {
             "id": "Francia",
             "nombre": "Francia",
-            "ultima_instancia":"2026-01",
-            "siguiente_instancia":"2026-02",
-            "descripcion": "Francia es considerada como una de las grandes potencias mundiales, tanto por su capacidad económica como por su impacto cultural al mundo. A su vez, es una potencia en ingeniería, donde grandes empresas de diseño tienen sede en este país. Además, es una potencia económica y cuenta con un nivel educativo muy alto. Su capital es París, donde puedes encontrar atracciones culturales tan grandes como a la Torre Eiffel, “Sacré Coer” y Versalles; miles de turistas año con año son albergados en la capital parisina. El país también es reconocido por sus vinos y su gastronomía sofisticada. Burdeos Su moneda es el euro, y su idioma principal es el francés, aunque en algunas partes suele ser muy común hacer mezcla del francés con el país adyacente.",
-            "evaluacion":"El sistema educativo francés tiene una evaluación de 0 a 20, donde el 10 es la calificación mínima aprobatoria. Los exámenes sorpresa son frecuentes y por lo general, el examen final vale la mayor parte de la calificación. En algunos casos, se trabaja con un proyecto final que cuenta como el 66 % de la calificación final y que es laborioso.",
-            "choque_cultutal":"Es recomendado ir preparado a todo, es decir, saber afrontar cualquier situación que se pudiera presentar teniendo en cuenta que estarás en un país distinto con costumbres distintas, por lo que es importante llevar una buena preparación en cuanto a inteligencia emocional. Es importante que hables bien el francés para que tengas más oportunidad de entablar conversaciones con tus compañeros, puesto que rara vez los franceses dominan muy bien el inglés. Por lo regular, los franceses en general son muy amables y no dudan en ayudarte si lo necesitas, aunque no tienden a abrir sus círculos amistosos muy fácilmente, sin embargo, puedes intentar involucrarte en eventos y actividades extra-clase.",
-            "bases_sep": [
-                {
-                    "edad": "Ser mayor de 18 años.",
-                    "inscripcion": "Estar inscrito en alguna licenciatura de la Instituciones Públicas de Educación Superior (IPES) señaladas en la convocatoria.",
-                    "adeudo": "Ser alumno/a regular (no adeudar asignaturas al momento del registro en el Sistema Único de Beneficiarios de Educación Superior -SUBES- y cursar las materias de acuerdo con el plan de estudios que corresponda).",
-                    "promedio": "Tener promedio general mínimo de 8.5 de calificación.",
-                    "creditos": "Contar al menos con el 50% de créditos concluidos y no más del 80% de créditos cursados.",
-                    "idioma": "Contar con un nivel mínimo de dominio del idioma francés B1 o su equivalente, y nivel mínimo de A2 en el idioma inglés.",
-                    "pasaporte": "Contar con pasaporte mexicano con vigencia superior al tiempo que dura la movilidad, o en su defecto, acreditar que se está realizando el trámite para la obtención del mismo."
-                }
-            ],
-            "proceso_previo": [
-                {
-                    "entrevista_cd_mx": [
-                        {
-                            "examen": "La primera etapa consiste en un examen en francés adaptativo llamado Evalang, es decir, las preguntas van adaptando su complejidad según las respuestas del candidato. El examen, que es en línea, consta de una parte gramática, otra de compresión escrita y finalmente compresión oral.",
-                            "escrito": "Una vez finalizado el examen obtendrás la calificación en 30 min, pero en este intervalo tendrás que redactar un documento referente a ciertos temas específicos seleccionados por un jurado. Esta redacción puede ser tanto en francés como en español, el objetivo es ver que tan centrado estás respecto a tus metas y como aplicarías los conocimientos generados en Francia para México o el mundo. Al finalizar esta etapa el jurado va a realizar una ponderación entre tu calificación y tu escrito. Esto con el fin de analizar si cuentas con las habilidades necesarias para pasar a las entrevistas. El veredicto se otorga en la misma sala donde realizaste tu examen, los candidatos nombrados son los que no pasan.",
-                            "entrevista_segundo_idioma": "Posteriormente continua una entrevista en francés. Su duración es alrededor de 10 min; durante la misma tendrás que demostrar tus habilidades referentes al manejo del idioma, puesto que vas a tener que responder preguntas totalmente fuera de lo común de un margen académico y/o profesional.",
-                            "entrevista_español": "Finalmente realizarás una entrevista en español. Esta es la más extensa, su duración puede ser hasta de 25-30 min. Aquí vas a ser cuestionado de múltiples formas, para probar si tienes el carácter necesario. Las preguntas son capciosas, es importante ser asertivo a la hora de responder. Presta mucha atención a cada pregunta, puesto que algunas tienen como fin que te contradigas. Mantener una postura segura y tener un buen tono de voz te ayudarán al momento de compartir tus ideas."
-                        }
-                    ],
-                    "tramites":[
-                        {
-                            "visa":"La visa o “titre de séjour” se tramita en la Ciudad de México en el consulado francés. Al ser fechas propuestas por Campus France (CF), los administrativos del consulado van a estar dispuestos a ayudarte con toda la documentación que se te será solicitada. De manera que solo te presentes y entregues tu expediente completo. ",
-                            "documentos":"Es importante que antes de que te vayas apostilles tu acta de nacimiento, puesto que esto te será útil en el trámite de seguridad social y CAF, así como también hacer la traducción de tu acta apostillada. De igual forma, la universidad te notificará de todos los demás trámitesque necesites y te ayudará con ellos."
-                        }
-                    ]
-                }
-            ],
-            "vuelos":[
-                {
-                    "precios":"Generalmente, y de acuerdo al presupuesto con el que cuente la UACJ en el año de aplicación, la universidad se encargará de comprar el vuelo redondo de Ciudad Juárez a Ciudad de México. Por otro lado, y por lo regular, se contrata a alguna agencia de viajes para apoyo en el traslado a Francia (revisar las condiciones de la convocatoria en el año de aplicación). El traslado de Vichy a la ciudad en la que realizarás la estancia correrá por tu cuenta; ya sea que llegues en tren o en autobús (con recurso de la beca MEXFITEC).",
-                    "duracion":"El vuelo tiene una duración de 11 horas; por lo general y según la convocatoria, serás guiado por el personal de la agencia de viajes, quienes te brindarán soporte en ambos aeropuertos. Los documentos que deberás cargar en todo momento es tu pasaporte ya visado, puesto que ese será solicitado en migración, y tu pase de abordar.",
-                    "equipaje":"El límite de equipaje documentado es de 23 kg, aunque procura no llevar menos de esa cantidad; el equipaje de mano es recomendable que no exceda el límite de 10 kg. "
-                }
-            ]
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"francia",
+            "descripcion": "Francia es considerada como una de las grandes potencias mundiales, tanto por su capacidad económica como por su impacto cultural al mundo. A su vez, es una potencia en ingeniería, donde grandes empresas de diseño tienen sede en este país. Además, es una potencia económica y cuenta con un nivel educativo muy alto. Su capital es París, donde puedes encontrar atracciones culturales tan grandes como a la Torre Eiffel, Sacré Coer y Versalles; miles de turistas año con año son albergados en la capital parisina. El país también es reconocido por sus vinos y su gastronomía sofisticada. Su moneda es el euro, y su idioma principal es el francés.",
+            "evaluacion": "El sistema educativo francés tiene una evaluación de 0 a 20, donde el 10 es la calificación mínima aprobatoria. Los exámenes sorpresa son frecuentes y por lo general, el examen final vale la mayor parte de la calificación. En algunos casos, se trabaja con un proyecto final que cuenta como el 66% de la calificación final.",
+            "choque_cultural": "Es recomendado ir preparado a todo, es decir, saber afrontar cualquier situación que se pudiera presentar teniendo en cuenta que estarás en un país distinto con costumbres distintas. Es importante que hables bien el francés para que tengas más oportunidad de entablar conversaciones con tus compañeros.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en alguna licenciatura de las Instituciones Públicas de Educación Superior (IPES) señaladas en la convocatoria.",
+                "adeudo": "Ser alumno/a regular (no adeudar asignaturas al momento del registro en el Sistema Único de Beneficiarios de Educación Superior -SUBES-).",
+                "promedio": "Tener promedio general mínimo de 8.5 de calificación.",
+                "creditos": "Contar al menos con el 50% de créditos concluidos y no más del 80% de créditos cursados.",
+                "idioma": "Contar con un nivel mínimo de dominio del idioma francés B1 o su equivalente, y nivel mínimo de A2 en el idioma inglés.",
+                "pasaporte": "Contar con pasaporte mexicano con vigencia superior al tiempo que dura la movilidad."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "La primera etapa consiste en un examen en francés adaptativo llamado Evalang. El examen, que es en línea, consta de una parte gramática, otra de comprensión escrita y finalmente comprensión oral.",
+                    "escrito": "Una vez finalizado el examen obtendrás la calificación en 30 min, pero en este intervalo tendrás que redactar un documento referente a ciertos temas específicos seleccionados por un jurado.",
+                    "entrevista_segundo_idioma": "Su duración es alrededor de 10 min; durante la misma tendrás que demostrar tus habilidades referentes al manejo del idioma.",
+                    "entrevista_español": "Esta es la más extensa, su duración puede ser hasta de 25-30 min. Aquí vas a ser cuestionado de múltiples formas para probar si tienes el carácter necesario."
+                }],
+                "tramites": [{
+                    "visa": "La visa o titre de séjour se tramita en la Ciudad de México en el consulado francés. Al ser fechas propuestas por Campus France, los administrativos del consulado van a estar dispuestos a ayudarte con toda la documentación solicitada.",
+                    "documentos": "Es importante que antes de que te vayas apostilles tu acta de nacimiento, puesto que esto te será útil en el trámite de seguridad social y CAF, así como también hacer la traducción de tu acta apostillada."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Generalmente la universidad se encargará de comprar el vuelo redondo de Ciudad Juárez a Ciudad de México. Por otro lado, se contrata a alguna agencia de viajes para apoyo en el traslado a Francia.",
+                "duracion": "El vuelo tiene una duración de 11 horas; por lo general serás guiado por el personal de la agencia de viajes, quienes te brindarán soporte en ambos aeropuertos.",
+                "equipaje": "El límite de equipaje documentado es de 23 kg; el equipaje de mano es recomendable que no exceda el límite de 10 kg."
+            }]
         },
         {
             "id": "Estados Unidos",
-            "nombre": "Estados Unidos",
-            "ultima_instancia":"2026-01",
-            "siguiente_instancia":"2026-02",
-            "descripcion": "Estados Unidos es una de las principales potencias mundiales en términos económicos, tecnológicos y educativos. Alberga algunas de las universidades más prestigiosas del mundo y destaca por su innovación en áreas como ingeniería, negocios y ciencias. Su capital es Washington D.C., aunque ciudades como Nueva York, Los Ángeles y Boston son importantes centros culturales y académicos. El país es conocido por su diversidad cultural y oportunidades profesionales. Su moneda es el dólar estadounidense y el idioma principal es el inglés.",
-            "evaluacion": "El sistema educativo estadounidense generalmente utiliza una escala de calificaciones de A a F, donde A representa excelencia y F reprobación. También se utiliza el GPA (Grade Point Average) en una escala de 0.0 a 4.0. Las evaluaciones incluyen tareas, proyectos, participación en clase y exámenes parciales y finales.",
-            "choque_cultutal": "Es importante adaptarse a un entorno multicultural y competitivo. La comunicación suele ser directa y se valora la participación activa en clase. Los estudiantes suelen ser independientes y es común trabajar en equipo. Es recomendable tener un buen nivel de inglés para integrarse académica y socialmente.",
-            "bases_sep": [
-                {
-                    "edad": "Ser mayor de 18 años.",
-                    "inscripcion": "Estar inscrito en una licenciatura en una IPES participante.",
-                    "adeudo": "Ser alumno regular sin adeudo de materias.",
-                    "promedio": "Tener promedio mínimo de 8.5.",
-                    "creditos": "Contar con al menos el 50% de créditos y no más del 80%.",
-                    "idioma": "Contar con nivel mínimo de inglés B2 (TOEFL o equivalente).",
-                    "pasaporte": "Contar con pasaporte vigente o comprobante de trámite."
-                }
-            ],
-            "proceso_previo": [
-                {
-                    "entrevista_cd_mx": [
-                        {
-                            "examen": "Se realiza un examen de inglés que evalúa comprensión lectora, auditiva y gramática.",
-                            "escrito": "Se redacta un ensayo sobre objetivos académicos y profesionales.",
-                            "entrevista_segundo_idioma": "No aplica.",
-                            "entrevista_español": "Se realiza una entrevista en español enfocada en motivación, adaptación y metas."
-                        }
-                    ],
-                    "tramites": [
-                        {
-                            "visa": "La visa de estudiante (tipo F-1) se tramita en la embajada o consulado de Estados Unidos.",
-                            "documentos": "Se requiere formulario I-20, comprobante financiero, acta de nacimiento y otros documentos solicitados."
-                        }
-                    ]
-                }
-            ],
-            "vuelos": [
-                {
-                    "precios": "El costo del vuelo puede variar dependiendo de la ciudad destino, generalmente cubierto parcialmente por la institución.",
-                    "duracion": "La duración del vuelo varía entre 3 y 6 horas dependiendo de la ciudad destino.",
-                    "equipaje": "Se permite generalmente una maleta documentada de 23 kg y equipaje de mano de 10 kg."
-                }
-            ]
+            "nombre": "Estados Unido",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"usa",
+            "descripcion": "Estados Unidos es una de las principales potencias mundiales en términos económicos, tecnológicos y educativos. Alberga algunas de las universidades más prestigiosas del mundo y destaca por su innovación en áreas como ingeniería, negocios y ciencias. Su capital es Washington D.C., aunque ciudades como Nueva York, Los Ángeles y Boston son importantes centros culturales y académicos. Su moneda es el dólar estadounidense y el idioma principal es el inglés.",
+            "evaluacion": "El sistema educativo estadounidense generalmente utiliza una escala de calificaciones de A a F, donde A representa excelencia y F reprobación. También se utiliza el GPA en una escala de 0.0 a 4.0. Las evaluaciones incluyen tareas, proyectos, participación en clase y exámenes parciales y finales.",
+            "choque_cultural": "Es importante adaptarse a un entorno multicultural y competitivo. La comunicación suele ser directa y se valora la participación activa en clase. Es recomendable tener un buen nivel de inglés para integrarse académica y socialmente.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una licenciatura en una IPES participante.",
+                "adeudo": "Ser alumno regular sin adeudo de materias.",
+                "promedio": "Tener promedio mínimo de 8.5.",
+                "creditos": "Contar con al menos el 50% de créditos y no más del 80%.",
+                "idioma": "Contar con nivel mínimo de inglés B2 (TOEFL o equivalente).",
+                "pasaporte": "Contar con pasaporte vigente o comprobante de trámite."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "Se realiza un examen de inglés que evalúa comprensión lectora, auditiva y gramática.",
+                    "escrito": "Se redacta un ensayo sobre objetivos académicos y profesionales.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Se realiza una entrevista en español enfocada en motivación, adaptación y metas."
+                }],
+                "tramites": [{
+                    "visa": "La visa de estudiante (tipo F-1) se tramita en la embajada o consulado de Estados Unidos.",
+                    "documentos": "Se requiere formulario I-20, comprobante financiero, acta de nacimiento y otros documentos solicitados."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "El costo del vuelo puede variar dependiendo de la ciudad destino, generalmente cubierto parcialmente por la institución.",
+                "duracion": "La duración del vuelo varía entre 3 y 6 horas dependiendo de la ciudad destino.",
+                "equipaje": "Se permite generalmente una maleta documentada de 23 kg y equipaje de mano de 10 kg."
+            }]
         },
         {
             "id": "Colombia",
             "nombre": "Colombia",
-            "ultima_instancia":"2026-01",
-            "siguiente_instancia":"2026-02",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"alemania",
             "descripcion": "Colombia es un país latinoamericano con gran riqueza cultural y biodiversidad. Su sistema educativo ha crecido significativamente en calidad y acceso. Su capital es Bogotá, y otras ciudades importantes incluyen Medellín y Cali. El país es reconocido por su calidez humana, café de alta calidad y diversidad cultural. Su moneda es el peso colombiano y el idioma oficial es el español.",
             "evaluacion": "El sistema educativo colombiano utiliza una escala de 0 a 5, donde 3.0 es la calificación mínima aprobatoria. Se evalúa mediante trabajos, exámenes y participación.",
-            "choque_cultutal": "La adaptación suele ser sencilla debido a la similitud cultural con México. Sin embargo, es importante adaptarse a modismos locales y dinámicas académicas. La interacción social es muy abierta y amigable.",
-            "bases_sep": [
-                {
-                    "edad": "Ser mayor de 18 años.",
-                    "inscripcion": "Estar inscrito en una IPES.",
-                    "adeudo": "No adeudar materias.",
-                    "promedio": "Promedio mínimo de 8.0.",
-                    "creditos": "50% a 80% de créditos.",
-                    "idioma": "No se requiere idioma adicional.",
-                    "pasaporte": "Pasaporte vigente."
-                }
-            ],
-            "proceso_previo": [
-                {
-                    "entrevista_cd_mx": [
-                        {
-                            "examen": "No se requiere examen de idioma.",
-                            "escrito": "Ensayo sobre motivación.",
-                            "entrevista_segundo_idioma": "No aplica.",
-                            "entrevista_español": "Entrevista enfocada en adaptación cultural y objetivos."
-                        }
-                    ],
-                    "tramites": [
-                        {
-                            "visa": "Dependiendo de la duración, puede requerirse visa de estudiante.",
-                            "documentos": "Pasaporte, carta de aceptación y comprobantes."
-                        }
-                    ]
-                }
-            ],
-            "vuelos": [
-                {
-                    "precios": "Costos accesibles, en algunos casos apoyados por la institución.",
-                    "duracion": "Entre 4 y 6 horas.",
-                    "equipaje": "23 kg documentado y 10 kg de mano."
-                }
-            ]
+            "choque_cultural": "La adaptación suele ser sencilla debido a la similitud cultural con México. Sin embargo, es importante adaptarse a modismos locales y dinámicas académicas. La interacción social es muy abierta y amigable.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una IPES.",
+                "adeudo": "No adeudar materias.",
+                "promedio": "Promedio mínimo de 8.0.",
+                "creditos": "50% a 80% de créditos.",
+                "idioma": "No se requiere idioma adicional.",
+                "pasaporte": "Pasaporte vigente."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "No se requiere examen de idioma.",
+                    "escrito": "Ensayo sobre motivación y objetivos académicos.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Entrevista enfocada en adaptación cultural y objetivos."
+                }],
+                "tramites": [{
+                    "visa": "Dependiendo de la duración, puede requerirse visa de estudiante.",
+                    "documentos": "Pasaporte, carta de aceptación y comprobantes."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Costos accesibles, en algunos casos apoyados por la institución.",
+                "duracion": "Entre 4 y 6 horas.",
+                "equipaje": "23 kg documentado y 10 kg de mano."
+            }]
         },
         {
             "id": "Alemania",
             "nombre": "Alemania",
-            "ultima_instancia":"2026-01",
-            "siguiente_instancia":"2026-02",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"alemania",
             "descripcion": "Alemania es una potencia europea destacada en ingeniería, tecnología e investigación. Cuenta con universidades de alto prestigio y programas accesibles. Su capital es Berlín y otras ciudades importantes incluyen Múnich y Hamburgo. Su moneda es el euro y el idioma oficial es el alemán.",
             "evaluacion": "El sistema alemán utiliza una escala de 1.0 a 5.0, donde 1.0 es la mejor calificación y 4.0 es la mínima aprobatoria.",
-            "choque_cultutal": "La cultura alemana valora la puntualidad, disciplina y organización. Es importante adaptarse a un entorno estructurado y formal. El idioma alemán es clave para la integración.",
-            "bases_sep": [
-                {
-                    "edad": "Mayor de 18 años.",
-                    "inscripcion": "Inscrito en IPES.",
-                    "adeudo": "Sin materias pendientes.",
-                    "promedio": "Mínimo 8.5.",
-                    "creditos": "50%-80%.",
-                    "idioma": "Nivel mínimo B1 de alemán o B2 de inglés.",
-                    "pasaporte": "Vigente."
-                }
-            ],
-            "proceso_previo": [
-                {
-                    "entrevista_cd_mx": [
-                        {
-                            "examen": "Examen de idioma alemán o inglés.",
-                            "escrito": "Ensayo académico.",
-                            "entrevista_segundo_idioma": "No aplica.",
-                            "entrevista_español": "Evaluación de perfil y adaptación."
-                        }
-                    ],
-                    "tramites": [
-                        {
-                            "visa": "Visa de estudiante en embajada alemana.",
-                            "documentos": "Seguro médico, carta de aceptación, comprobantes financieros."
-                        }
-                    ]
-                }
-            ],
-            "vuelos": [
-                {
-                    "precios": "Generalmente cubiertos parcialmente.",
-                    "duracion": "Entre 11 y 13 horas.",
-                    "equipaje": "23 kg documentado."
-                }
-            ]
+            "choque_cultural": "La cultura alemana valora la puntualidad, disciplina y organización. Es importante adaptarse a un entorno estructurado y formal. El idioma alemán es clave para la integración.",
+            "bases_sep": [{
+                "edad": "Mayor de 18 años.",
+                "inscripcion": "Inscrito en IPES.",
+                "adeudo": "Sin materias pendientes.",
+                "promedio": "Mínimo 8.5.",
+                "creditos": "50%-80%.",
+                "idioma": "Nivel mínimo B1 de alemán o B2 de inglés.",
+                "pasaporte": "Vigente."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "Examen de idioma alemán o inglés.",
+                    "escrito": "Ensayo académico sobre objetivos de la estancia.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Evaluación de perfil y adaptación."
+                }],
+                "tramites": [{
+                    "visa": "Visa de estudiante tramitada en la embajada alemana en México.",
+                    "documentos": "Seguro médico, carta de aceptación, comprobantes financieros y acta de nacimiento apostillada."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Generalmente cubiertos parcialmente por la institución según la convocatoria vigente.",
+                "duracion": "Entre 11 y 13 horas con escala.",
+                "equipaje": "23 kg documentado y 10 kg de mano."
+            }]
         },
         {
             "id": "Italia",
             "nombre": "Italia",
-            "ultima_instancia":"2026-01",
-            "siguiente_instancia":"2026-02",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"italia",
             "descripcion": "Italia es reconocida por su historia, arte y educación en áreas como diseño, arquitectura e ingeniería. Su capital es Roma, y otras ciudades importantes incluyen Milán y Florencia. Su moneda es el euro y el idioma oficial es el italiano.",
             "evaluacion": "El sistema italiano utiliza una escala de 0 a 30, donde 18 es la calificación mínima aprobatoria.",
-            "choque_cultutal": "La cultura italiana es expresiva y social. Es importante adaptarse a su estilo de comunicación y ritmo de vida. El idioma italiano facilita la integración.",
-            "bases_sep": [
-                {
-                    "edad": "Mayor de 18 años.",
-                    "inscripcion": "Inscrito en IPES.",
-                    "adeudo": "Sin adeudos.",
-                    "promedio": "Mínimo 8.0.",
-                    "creditos": "50%-80%.",
-                    "idioma": "Nivel B1 de italiano o inglés.",
-                    "pasaporte": "Vigente."
-                }
-            ],
-            "proceso_previo": [
-                {
-                    "entrevista_cd_mx": [
-                        {
-                            "examen": "Examen de idioma.",
-                            "escrito": "Ensayo motivacional.",
-                            "entrevista_segundo_idioma": "No aplica.",
-                            "entrevista_español": "Entrevista general."
-                        }
-                    ],
-                    "tramites": [
-                        {
-                            "visa": "Visa de estudiante en consulado italiano.",
-                            "documentos": "Carta de aceptación, seguro médico y comprobantes."
-                        }
-                    ]
-                }
-            ],
-            "vuelos": [
-                {
-                    "precios": "Variables según temporada.",
-                    "duracion": "Entre 11 y 13 horas.",
-                    "equipaje": "23 kg documentado."
-                }
-            ]
+            "choque_cultural": "La cultura italiana es expresiva y social. Es importante adaptarse a su estilo de comunicación y ritmo de vida. El idioma italiano facilita la integración.",
+            "bases_sep": [{
+                "edad": "Mayor de 18 años.",
+                "inscripcion": "Inscrito en IPES.",
+                "adeudo": "Sin adeudos.",
+                "promedio": "Mínimo 8.0.",
+                "creditos": "50%-80%.",
+                "idioma": "Nivel B1 de italiano o inglés.",
+                "pasaporte": "Vigente."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "Examen de idioma italiano o inglés.",
+                    "escrito": "Ensayo motivacional sobre objetivos académicos.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Entrevista general de perfil académico."
+                }],
+                "tramites": [{
+                    "visa": "Visa de estudiante tramitada en el consulado italiano en México.",
+                    "documentos": "Carta de aceptación, seguro médico, comprobantes financieros y acta apostillada."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Variables según temporada y ciudad de destino.",
+                "duracion": "Entre 11 y 13 horas con escala.",
+                "equipaje": "23 kg documentado y 10 kg de mano."
+            }]
+        },
+        {
+            "id": "Mexico",
+            "nombre": "México",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"mexico",
+            "descripcion": "México cuenta con una amplia red de instituciones de educación superior de alta calidad. Los convenios nacionales permiten a los estudiantes de la UACJ realizar estancias académicas en instituciones mexicanas de prestigio, fortaleciendo su formación profesional sin necesidad de salir del país. Estas movilidades representan una excelente oportunidad para conocer otras regiones de México y ampliar la red de contactos académicos y profesionales.",
+            "evaluacion": "El sistema de evaluación varía según la institución receptora. En general las universidades mexicanas utilizan una escala de 0 a 100, donde 60 o 70 es la calificación mínima aprobatoria. Se evalúa mediante exámenes parciales, proyectos, trabajos y participación en clase.",
+            "choque_cultural": "Al tratarse de movilidad nacional, la adaptación cultural es sencilla. Sin embargo, cada región de México tiene sus propias costumbres, gastronomía y dinámicas sociales. Se recomienda informarse sobre la ciudad de destino antes de la estancia.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en alguna licenciatura de la UACJ y cumplir con los requisitos de la convocatoria vigente.",
+                "adeudo": "Ser alumno regular sin adeudar asignaturas al momento del registro.",
+                "promedio": "Tener promedio general mínimo de 8.0 de calificación.",
+                "creditos": "Contar al menos con el 30% de créditos concluidos y no más del 80% de créditos cursados.",
+                "idioma": "No se requiere acreditación de idioma extranjero para movilidad nacional.",
+                "pasaporte": "No se requiere pasaporte. Identificación oficial vigente."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "No aplica examen de idioma para movilidad nacional.",
+                    "escrito": "En algunos casos se solicita una carta de motivos explicando las razones para realizar la movilidad y los beneficios académicos esperados.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Puede requerirse una entrevista con el coordinador de movilidad de la UACJ para validar el perfil del estudiante."
+                }],
+                "tramites": [{
+                    "visa": "No se requiere visa para movilidad nacional dentro de México.",
+                    "documentos": "Carta de postulación emitida por la UACJ, historial académico, identificación oficial, CURP y carta de exposición de motivos."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "El costo del traslado varía según la ciudad de destino. En algunos casos la UACJ otorga apoyo económico parcial. Se recomienda revisar las condiciones de la convocatoria vigente.",
+                "duracion": "La duración del traslado depende de la institución receptora y puede realizarse en avión, autobús u otro medio de transporte terrestre.",
+                "equipaje": "No hay restricciones de equipaje establecidas por la convocatoria. Se recomienda viajar ligero."
+            }]
+        },
+        {
+            "id": "España",
+            "nombre": "España",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"españa",
+            "descripcion": "España es un país europeo con una rica tradición académica y cultural. Cuenta con universidades de gran prestigio y es uno de los destinos favoritos para estudiantes hispanohablantes por la facilidad del idioma. Su capital es Madrid, y otras ciudades importantes incluyen Barcelona, Sevilla y Valencia. Su moneda es el euro y el idioma oficial es el español.",
+            "evaluacion": "El sistema educativo español utiliza una escala de 0 a 10, donde 5 es la calificación mínima aprobatoria. Las calificaciones se clasifican en: Suspenso (0-4.9), Aprobado (5-6.9), Notable (7-8.9) y Sobresaliente (9-10).",
+            "choque_cultural": "Aunque el idioma es el mismo, existen diferencias culturales notables como el horario de comidas, el ritmo de vida más pausado y el uso de modismos distintos. La integración es generalmente sencilla para estudiantes mexicanos.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una licenciatura en una IPES participante.",
+                "adeudo": "Ser alumno regular sin adeudo de materias.",
+                "promedio": "Tener promedio mínimo de 8.0.",
+                "creditos": "Contar con al menos el 50% de créditos y no más del 80%.",
+                "idioma": "No se requiere acreditación de idioma adicional al español. En algunos programas se solicita nivel básico de inglés.",
+                "pasaporte": "Contar con pasaporte mexicano vigente durante toda la estancia."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "En todas las estancias internacionales se requiere acreditar el idioma inglés, según su aplicación: Instituciones de América Latina y El Caribe: 450 puntos TOEFL ITP. Instituciones en América del Norte, Asia y Europa 550 puntos TOEFL ITP o el requerido por la IES..",
+                    "escrito": "No Aplica.",
+                    "entrevista_segundo_idioma": "No Aplica.",
+                    "entrevista_español": "No Aplica."
+                }],
+                "tramites": [{
+                    "visa": "En el caso de España, debido a que permanecerás más de 90 días en el país, es necesario que solicites un visado de estudios, que te permitirá estudiar y permanecer legalmente ahí.Se tramita en Monterrey, debes agendar una cita previa en la página del consulado de España y llevar los documentos necesarios especificados en la pagina (en original y copia). br Tiene un costo de 1,488 MXN (datos a octubre 2020) y debes tener encuenta que tarda un mes en llegar aproximadamente; igual tú puedes rastrear el proceso por internet. Se recomienda por lo general que no compres tus vuelos hasta que tengas la aprobación del visado, pues puede tardar hasta 3 meses en llegar, por lo que tienes que tener este dato importante previsto.",
+                    "documentos": "Carta de aceptación, comprobante de solvencia económica, seguro médico internacional, pasaporte vigente y acta de nacimiento apostillada."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Salir de Cancún o de la Ciudad de México son opcioneseconómicas comparadas con salidas desde otras ciudades del país.El vuelo redondo a Lleida o Girona cuesta $14,000 pesos, llegando a Barcelona. En el caso de Sevilla, conviene volar hasta Madrid; el vuelo ronda entre $11,000 hasta $20,000 pesos y de ahí se toma un autobús o tren a Sevilla, aunque también puedes pedir que tu vuelo llegue hasta Sevilla. (datos a octubre 2020).",
+                "duracion": "Por lo general de Ciudad Juárez a la Ciudad de México son 2.5 horas y de Ciudad de México a Madrid o Barcelona pueden ser de 11 a 12 horas. ",
+                "equipaje": "El límite de equipaje documentado es generalmente de 23 kg y equipaje de mano de 10 kg."
+            }]
+        },
+        {
+            "id": "Uruguay",
+            "nombre": "Uruguay",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"uruguay",
+            "descripcion": "Uruguay es un país sudamericano reconocido por su estabilidad política, alta calidad de vida y sistema educativo público de excelencia. Su capital es Montevideo, una ciudad cosmopolita y segura. El país es conocido por su apertura cultural, respeto a los derechos humanos y alto índice de desarrollo humano en América Latina. Su moneda es el peso uruguayo y el idioma oficial es el español.",
+            "evaluacion": "El sistema educativo uruguayo utiliza una escala de 0 a 12, donde 6 es la calificación mínima aprobatoria en la Universidad de la República. Las evaluaciones incluyen exámenes escritos, trabajos finales y defensa oral según la carrera.",
+            "choque_cultural": "La adaptación es sencilla dado que el idioma es el español, aunque el acento y algunos modismos pueden resultar distintos. La sociedad uruguaya es muy abierta y acogedora con los estudiantes extranjeros. El ritmo de vida es tranquilo comparado con otras capitales latinoamericanas.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una IPES participante en la convocatoria.",
+                "adeudo": "No adeudar materias al momento del registro.",
+                "promedio": "Promedio mínimo de 8.0.",
+                "creditos": "50% a 80% de créditos cursados.",
+                "idioma": "No se requiere idioma adicional al español.",
+                "pasaporte": "Pasaporte mexicano vigente durante toda la estancia."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "No se requiere examen de idioma para programas en Uruguay.",
+                    "escrito": "Carta de motivación en español describiendo objetivos académicos y expectativas de la estancia.",
+                    "entrevista_segundo_idioma": "No aplica.",
+                    "entrevista_español": "Entrevista en español con el coordinador de movilidad para evaluar el perfil del estudiante."
+                }],
+                "tramites": [{
+                    "visa": "Los ciudadanos mexicanos no requieren visa para ingresar a Uruguay para estancias de estudio. Se recomienda verificar las condiciones migratorias vigentes al momento de la solicitud.",
+                    "documentos": "Carta de aceptación de la institución receptora, comprobante de solvencia económica, seguro médico y pasaporte vigente."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "El costo del vuelo varía según la temporada. Puede haber apoyo parcial de la UACJ según la convocatoria vigente.",
+                "duracion": "El vuelo tiene una duración aproximada de 10 a 12 horas con escala, generalmente en São Paulo o Buenos Aires.",
+                "equipaje": "23 kg de equipaje documentado y 10 kg de equipaje de mano como límite estándar."
+            }]
+        },
+        {
+            "id": "Canada",
+            "nombre": "Canada",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"canada",
+            "descripcion": "Canadá es uno de los países con mayor calidad de vida en el mundo y alberga universidades de reconocimiento internacional. Es un destino ideal para estudiantes que buscan formación en inglés o francés en un entorno multicultural y seguro. Sus ciudades más importantes incluyen Toronto, Vancouver, Montreal y Ottawa, que es su capital. Su moneda es el dólar canadiense.",
+            "evaluacion": "El sistema educativo canadiense utiliza generalmente una escala de letras (A, B, C, D, F) o porcentajes del 0 al 100, donde 50 o 60 es la calificación mínima aprobatoria según la institución. También se utiliza el GPA en escala de 4.0.",
+            "choque_cultural": "Canadá es una sociedad multicultural y muy respetuosa de la diversidad. La adaptación puede requerir ajustes al clima extremadamente frío en invierno y a la cultura de puntualidad y autonomía. Se recomienda prepararse para el idioma inglés o francés según la provincia de destino.Evita utilizar vocabulario que se pueda malinterpretar o pueda sonar ofensivo para llevar una mejor relación con las personas y no causar situaciones indeseadas. Lo mejor es referirte a las personas por su nombre y si no te acuerdas de ellas, preguntar por su nombre, haciendo referencia a algún lugar donde pudiste haber conocido a la persona. ",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una IPES participante.",
+                "adeudo": "No adeudar materias al momento del registro.",
+                "promedio": "Promedio mínimo de 8.5.",
+                "creditos": "50% a 80% de créditos cursados.",
+                "idioma": "Nivel mínimo de inglés B2 o francés B1 según la institución receptora.",
+                "pasaporte": "Pasaporte mexicano vigente durante toda la estancia."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "Examen de inglés o francés según la institución receptora (TOEFL, IELTS o equivalente).",
+                    "escrito": "Carta de motivación en inglés o francés describiendo objetivos académicos.",
+                    "entrevista_segundo_idioma": "Entrevista en inglés o francés para evaluar el nivel de dominio del idioma.",
+                    "entrevista_español": "Entrevista complementaria en español para evaluar perfil y adaptabilidad."
+                }],
+                "tramites": [{
+                    "visa": "Se requiere permiso de estudio (Study Permit) tramitado ante Immigration, Refugees and Citizenship Canada (IRCC). El trámite se realiza en línea con anticipación.",
+                    "documentos": "Carta de aceptación, comprobante de solvencia económica, pasaporte vigente, fotografías y formularios de inmigración canadiense."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "Es recomendable ver diferentes opciones en buscadores de vuelos, y ofertas en las diferentes aerolíneas, además de buscar un vuelo redondo. Los costos de los vuelos redondos, rondan entre los 10,000 y los 20,000 MXN (Datos a octubre 2020).",
+                "duracion": "El tiempo de traslado es de aproximadamente nueve horas, saliendo el vuelo de Ciudad Juárez con destino a CDMX, y de ahí, a tu ciudad destino. ",
+                "equipaje": "23 kg de equipaje documentado y 10 kg de equipaje de mano como límite estándar."
+            }]
+        },
+        {
+            "id": "Rusia",
+            "nombre": "Rusia",
+            "ultima_instancia": "2026-01",
+            "siguiente_instancia": "2026-02",
+            "imagen":"rusia",
+            "descripcion": "Rusia es el país más grande del mundo y cuenta con una larga tradición científica y académica, especialmente en áreas como física, matemáticas e ingeniería. Su capital es Moscú, y otras ciudades importantes incluyen San Petersburgo y Novosibirsk. El país ofrece programas de intercambio en instituciones de alto nivel en ciencias exactas y tecnología. Su moneda es el rublo ruso y el idioma oficial es el ruso.",
+            "evaluacion": "El sistema educativo ruso utiliza una escala de 1 a 5, donde 3 es la calificación mínima aprobatoria. Los exámenes son rigurosos y la evaluación incluye pruebas orales, escritas y defensa de proyectos.",
+            "choque_cultural": "El choque cultural puede ser significativo debido a las diferencias en idioma, clima extremo y dinámicas sociales. Se recomienda prepararse con anticipación en el idioma ruso o inglés según el programa. La cultura rusa es rica en tradiciones, arte y literatura.",
+            "bases_sep": [{
+                "edad": "Ser mayor de 18 años.",
+                "inscripcion": "Estar inscrito en una IPES participante en la convocatoria.",
+                "adeudo": "No adeudar materias al momento del registro.",
+                "promedio": "Promedio mínimo de 8.5.",
+                "creditos": "50% a 80% de créditos cursados.",
+                "idioma": "Nivel mínimo de inglés B1 o ruso A2 según el programa de la institución receptora.",
+                "pasaporte": "Pasaporte mexicano vigente con al menos 6 meses de vigencia adicional a la duración de la estancia."
+            }],
+            "proceso_previo": [{
+                "entrevista_cd_mx": [{
+                    "examen": "Examen de inglés o ruso según los requisitos del programa de intercambio.",
+                    "escrito": "Carta de motivación en inglés describiendo objetivos académicos y razones para elegir Rusia como destino.",
+                    "entrevista_segundo_idioma": "Entrevista en inglés para evaluar el nivel de comunicación del candidato.",
+                    "entrevista_español": "Entrevista en español para evaluar perfil académico, motivación y capacidad de adaptación."
+                }],
+                "tramites": [{
+                    "visa": "Se requiere visa de estudiante tramitada en la embajada o consulado de Rusia en México. El proceso puede tomar varias semanas, por lo que se recomienda iniciar con anticipación.",
+                    "documentos": "Carta de invitación de la institución receptora, pasaporte vigente, fotografías, formulario de visa, comprobante de seguro médico y antecedentes no penales."
+                }]
+            }],
+            "vuelos": [{
+                "precios": "El costo del vuelo es variable y generalmente elevado por la distancia. Se recomienda revisar las condiciones de apoyo económico de la convocatoria vigente.",
+                "duracion": "Entre 14 y 18 horas con una o dos escalas, dependiendo de la ruta y ciudad de destino en Rusia.",
+                "equipaje": "23 kg de equipaje documentado y 10 kg de equipaje de mano como límite estándar."
+            }]
         }
     ]
 }
