@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/ficha_identidad.css">
+    <link rel="stylesheet" href="./assets/css/maps_ficha_identidad.css">
+    <link rel="stylesheet" href="./assets/css/contacto_ficha_identidad.css">
 
 </head>
 
@@ -30,13 +32,68 @@
                 <h1>Raul Fernando Ruiz Melendez</h1>
                 <h1>Proyecto Final</h1>
             </div>
-            
+
             <div class="img_container_qr">
                 <img src="/assets/images/sitioWeb.png" alt="">
                 <img src="/assets/images/GitHub.png" alt="">
             </div>
             <div class="ciclo">
                 <p>CICLO ESCOLAR ENERO-JUNIO 2026</p>
+            </div>
+        </div>
+
+
+        <div class="container_contacto_mapa">
+
+            <section class="seccion_mapa">
+                <h2 class="titulo_mapa">Encuéntranos aquí</h2>
+                <div class="contenedor_mapa">
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1btjhppsAxFnqcaGS_XdN8yI0xKIcwKQ&usp=sharing"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <div class="contenedor_contacto">
+                <form action="" id="contact_form">
+                    <h2>Contacto Internacionalizacion</h2>
+                    <p>Contactate Con El Equipo de Internacionalizacion de La UACJ Para Obtener Mas Informacion Sobre El
+                        Programa Que Te Interese</p>
+
+                    <input type="text" id="user_name" name="name" placeholder="Tu Nombre" required>
+                    <input type="text" id="user_email" name="email" placeholder="Tu Correo" required>
+                    <input type="text" id="id_matricula" name="matricula" placeholder="Tu Matricula" required>
+
+                    <input type="text" id="cantidad_de_creditos" name="creditos"
+                        placeholder="Cantidad de Creditos Obtenidos" required>
+
+                    <select name="glass_type" id="glass_type">
+                        <option value="francia">Programa Universidad De Paris</option>
+                        <option value="italia">Programa Universidad De Florencia</option>
+                        <option value="alemania">Programa Universidad Karlsruher Institut fur Technologie</option>
+                        <option value="usa">Programa Universidad De Nuevo Mexico</option>
+                        <option value="colombia">Programa Universidad De Antioquia</option>
+                    </select>
+
+                    <select name="carrera" id="nombre_carrera">
+                        <option value="francia">DDMI </option>
+                        <option value="italia">Mecatronica</option>
+                        <option value="alemania">Mecanica</option>
+                        <option value="usa">Arquitectura</option>
+                        <option value="colombia">Dise;o Grafico</option>
+                        <option value="colombia">Dise;o Industrial</option>
+                        <option value="colombia">Produccion Musical</option>
+                        <option value="colombia">Aeronautica Grafico</option>
+                        <option value="colombia">Ambiental</option>
+                        <option value="colombia">Ing. Biomedica</option>
+                    </select>
+
+                    <textarea name="message" id="message" placeholder="Detalles de la consulta" required></textarea>
+
+                    <button type="submit" id="button">Enviar</button>
+                </form>
             </div>
         </div>
     </main>

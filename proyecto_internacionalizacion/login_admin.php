@@ -3,7 +3,7 @@ include 'conexion_1.php';
 
 // Cargar usuarios de la base de datos
 try {
-    $stmt = $conn->prepare("SELECT id, correo FROM usuarios_personalizados ORDER BY correo");
+    $stmt = $conn->prepare("SELECT id, correo FROM administradores ORDER BY correo");
     $stmt->execute();
     $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
@@ -20,8 +20,8 @@ try {
 </head>
 <body>
     
-    <form action="login_usuario.php" method="post" class="contenedor_formulario">
-        <h2>Login Usuario</h2>
+    <form action="login_administrador.php" method="post" class="contenedor_formulario">
+        <h2>Login Administrador</h2>
 
         <?php
         // Mostrar mensaje de error si existe
@@ -30,15 +30,15 @@ try {
             if ($_GET['error'] == 'datos') {
                 echo 'Usuario, contraseña incorrectos';
             } elseif ($_GET['error'] == 'vacio') {
-                echo '⚠️ Por favor completa todos los campos';
+                echo 'Por favor completa todos los campos';
             }
             echo '</p>';
         }
         ?>
 
-        <label>Seleccionar Usuario:</label><br>
+        <label>Seleccionar Administrador:</label><br>
         <select name="id" required>
-            <option value="">-- Selecciona un usuario --</option>
+            <option value="">-- Selecciona un Usuario --</option>
             <?php foreach ($usuarios as $usuario): ?>
                 <option value="<?php echo htmlspecialchars($usuario['id']); ?>">
                     ID: <?php echo htmlspecialchars($usuario['id']); ?> - 
@@ -51,7 +51,7 @@ try {
         <input type="password" name="password_usu" required><br><br>
 
         <button type="submit">Ingresar</button>
-        <button type="button" onclick="window.location.href='formulario_login.php'">Registrar Nuevo Usuario</button>
+        <button type="button" onclick="window.location.href='formulario_usuario.html'">Registrar Nuevo Usuario</button>
     </form>
     
 </body>
