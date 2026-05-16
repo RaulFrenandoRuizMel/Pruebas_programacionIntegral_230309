@@ -14,9 +14,9 @@
         <img class="logo" src="./assets/images/logotipo_uacj.png" alt="">
       </a>
       <nav class="header-nav">
-        <a href="menu.html"              class="${isActive('index.php')}">Home</a>
+        <a href="menu.html"              class="${isActive('menu.html')}">Home</a>
         <a href="proceso_inscripcion.html" class="${isActive('proceso_inscripcion.html')}">Proceso</a>
-        <a href="menu.html"      class="${isActive('menu.html')}">Instituciones</a>
+        <a href="menu.html#contenedor_uacj"      class="${isActive('#')}">Instituciones</a>
         <a href="contacto.html"           class="${isActive('contacto.html')}">Contacto</a>
         <a href="ficha_identidad.html"    class="nav-cta ${isActive('ficha_identidad.html')}">Ficha Identidad</a>
       </nav>

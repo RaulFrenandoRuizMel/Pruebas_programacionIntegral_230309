@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['id'], $_POST['contrase
     }
     
 } else {
-    header("Location: menu.html");
+    header("Location: formulario_usuario.html");
     exit();
 }
 ?>

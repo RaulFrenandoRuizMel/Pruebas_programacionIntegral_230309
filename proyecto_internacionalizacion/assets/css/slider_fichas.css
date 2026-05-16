@@ -99,36 +99,208 @@
 .slider-wrapper .swiper-slide-button:hover {
   color: #4658ff;
 }
+/* Full HD */
+@media (max-width: 1920px) {
+    .slider-wrapper {
+        margin: 0 100px 70px;
+    }
 
-@media (max-width: 768px) {
-  .slider-wrapper {
-    margin: 0 10px 40px;
-  }
+    .container h3 {
+        font-size: 95px;
+        width: 15%;
+    }
 
-  .slider-wrapper .swiper-slide-button {
-    display: none;
-  }
+    .card-list .card-item {
+        padding: 45px;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 190px;
+        height: 190px;
+        margin-bottom: 50px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 1.35rem;
+        margin: 16px 0 50px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 1.45rem;
+        padding: 12px 42px;
+    }
+
+    .slider-wrapper .swiper-pagination-bullet {
+        height: 15px;
+        width: 15px;
+    }
 }
 
-/* ─────────────────────────────────────────
-   RESPONSIVE
-───────────────────────────────────────── */
+/* Monitores medianos */
+@media (max-width: 1600px) {
+    .slider-wrapper {
+        margin: 0 85px 62px;
+    }
+
+    .container h3 {
+        font-size: 85px;
+        width: 14%;
+    }
+
+    .card-list .card-item {
+        padding: 40px;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 45px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 1.25rem;
+        margin: 15px 0 45px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 1.35rem;
+        padding: 11px 38px;
+    }
+}
+
+/* Laptop / Desktop estándar */
+@media (max-width: 1280px) {
+    .slider-wrapper {
+        margin: 0 70px 55px;
+    }
+
+    .container h3 {
+        font-size: 75px;
+        width: 13%;
+    }
+
+    .card-list .card-item {
+        padding: 35px;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 40px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 1.15rem;
+        margin: 14px 0 40px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 1.25rem;
+        padding: 10px 35px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .slider-wrapper {
+        margin: 0 10px 40px;
+        width: 90%;
+    }
+
+    .container h3 {
+        font-size: 55px;
+        width: 30%;
+    }
+
+    .card-list .card-item {
+        padding: 25px;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 28px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 1rem;
+        margin: 10px 0 28px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 1.05rem;
+        padding: 8px 24px;
+    }
+
+    .slider-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+
+/* Tablet pequeña / Móvil grande */
+@media (max-width: 576px) {
+    .slider-wrapper {
+        margin: 0 8px 32px;
+        width: 92%;
+    }
+
+    .container h3 {
+        font-size: 42px;
+        width: 40%;
+    }
+
+    .card-list .card-item {
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 22px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 0.95rem;
+        margin: 8px 0 22px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 0.95rem;
+        padding: 7px 20px;
+    }
+}
 
 /* Móvil estándar */
 @media (max-width: 480px) {
-    .seccion_mapa {
-        padding: 25px 3%;
-        gap: 12px;
+    .slider-wrapper {
+        margin: 0 6px 28px;
+        width: 95%;
     }
 
-    .titulo_mapa {
-        font-size: 1.6em;
+    .container h3 {
+        font-size: 34px;
+        width: 55%;
     }
 
-    .contenedor_mapa {
-        max-width: 100%;
-        height: 320px;
+    .card-list .card-item {
+        padding: 16px;
         border-radius: 8px;
-        border: 2px solid goldenrod;
+    }
+
+    .card-list .card-item .campus_image {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 18px;
+    }
+
+    .card-list .card-item .pais_convenio {
+        font-size: 0.88rem;
+        margin: 6px 0 18px;
+    }
+
+    .card-list .card-item .message-button {
+        font-size: 0.88rem;
+        padding: 6px 16px;
     }
 }

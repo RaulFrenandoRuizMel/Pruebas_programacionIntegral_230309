@@ -16,7 +16,9 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Sistema</title>
-<link rel="stylesheet" href="./assets/css/styles_menu.css">
+    <link rel="stylesheet" href="./assets/css/styles_menu.css">
+    <link rel="stylesheet" href="./assets/css/fuentes.css">
+
 </head>
 <body>
     
@@ -51,7 +53,7 @@ try {
         <input type="password" name="password_usu" required><br><br>
 
         <button type="submit">Ingresar</button>
-        <button type="button" onclick="window.location.href='formulario_login.php'">Registrar Nuevo Usuario</button>
+        <button type="button" onclick="window.location.href='login_admin.php'">Registrar Nuevo Usuario</button>
     </form>
     
 </body>

@@ -43,10 +43,11 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'DM Sans', sans-serif;
-    background-image: url("/proyecto_internacionalizacion/assets/images/internacionalizacion.jpg");
+    background-image: url("../images/internacionalizacion.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 2%;
 }
 
 label {

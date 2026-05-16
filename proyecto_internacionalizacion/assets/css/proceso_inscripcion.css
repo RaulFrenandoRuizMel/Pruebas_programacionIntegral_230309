@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter:wght@600;700&family=Roboto:wght@400;500&display=swap');
-
 main {
     height: auto;
     max-width: 100%;
