@@ -1,0 +1,42 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(/assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDispaly;
+    src: url(/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: SourceSans3;
+    src: url(../fuentes/teko/Teko-Medium.ttf);
+}
+h1 {
+    font-family: PlayfairDispaly;
+}
+
+h2 {
+    font-family: PlayfairDispaly;
+}
+
+h3 {
+    font-family: NunitoSans;
+}
+
+li {
+    font-family: SourceSans3;
+}
+
+li {
+    font-family: Roboto;
+}
+
+a {
+    font-family: NunitoSans;
+}

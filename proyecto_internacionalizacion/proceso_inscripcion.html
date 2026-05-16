@@ -7,8 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/proceso_inscripcion.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header2.css">
+    <link rel="stylesheet" href="./assets/css/footer2.css">
+    <link rel="stylesheet" href="./assets/css/fuentes.css">
 </head>
 
 <body>
@@ -16,42 +17,75 @@
     </header>
     <main>
         <div class="contenedor_pasos">
-
+            <div class="contenedor_titulo_pasos">
+                <h1>Etapas Del Proceso</h1>
+            </div>
             <div class="paso_proceso paso_activo" id="Bases">
+                <button class="numero">
+                    <span>1</span>
+                </button>
                 <h2>Bases</h2>
             </div>
             <div class="paso_proceso" id="registro_seleccion">
+                <button class="numero">
+                    <span>2</span>
+                </button>
                 <h2>Registro Y Seleccion</h2>
             </div>
             <div class="paso_proceso" id="propuesta_seleccion">
+                <button class="numero">
+                    <span>3</span>
+                </button>
                 <h2>Propuesta y Asignacion de Institucion Receptora</h2>
             </div>
             <div class="paso_proceso" id="conformacion_expediente">
+                <button class="numero">
+                    <span>4</span>
+                </button>
                 <h2>Conformacion De Expediente</h2>
             </div>
             <div class="paso_proceso" id="documentos_academicos">
+                <button class="numero">
+                    <span>5</span>
+                </button>
                 <h2>Documentos Academicos</h2>
             </div>
             <div class="paso_proceso" id="documentos_personales">
+                <button class="numero">
+                    <span>6</span>
+                </button>
                 <h2>Documentos Personales</h2>
             </div>
             <div class="paso_proceso" id="documentos_tramites">
+                <button class="numero">
+                    <span>7</span>
+                </button>
                 <h2>Documentos De Tramite</h2>
             </div>
             <div class="paso_proceso" id="evaluacion_candidatos">
+                <button class="numero">
+                    <span>8</span>
+                </button>
                 <h2>Evaluacion Y Postulacion De Candidatos</h2>
             </div>
             <div class="paso_proceso" id="resultados">
+                <button class="numero">
+                    <span>9</span>
+                </button>
                 <h2>Resultados</h2>
             </div>
             <div class="paso_proceso" id="cancelacion">
+                <button class="numero">
+                    <span>10</span>
+                </button>
                 <h2>Cancelacion De Estancia Academica</h2>
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_Bases">
-            <div class="ficha_del_pais">
-                <h2>Bases</h2>
+        <div class="contenedor_descripcion_pasos descripcion" id="descripcion_Bases">
+            <h2 class="titulo">Bases</h2>
+
+            <div class="informacion">
                 <ol>
                     <li>Tener estatus de inscrito/a en el semestre en curso</li>
                     <li>Contar con promedio minimo de 8.5</li>
@@ -78,9 +112,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_registro_seleccion">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_registro_seleccion">
+            <h2 class="titulo">Registro y selección de candidatos</h2>
+
             <div class="informacion">
-                <h2>Registro y selección de candidatos</h2>
                 <p>
                     El registro y selección de candidatos para movilidad estudiantil se realiza a través de las
                     Coordinaciones de Programa Educativo, quienes proponen y registran a los estudiantes en el sistema
@@ -117,9 +152,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_propuesta_seleccion">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_propuesta_seleccion">
+            <h2 class="titulo">Propuesta y Asignacion de Institucion Receptora</h2>
+
             <div class="informacion">
-                <h2>Propuesta y Asignacion de Institucion Receptora</h2>
                 <p>
                     Los estudiantes autorizados para participar en el programa serán notificados mediante su correo
                     institucional UACJ y a través del Sistema Único de Movilidad Académica.
@@ -153,9 +189,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_conformacion_expediente">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_conformacion_expediente">
+            <h2 class="titulo">Conformacion De Expediente</h2>
+
             <div class="informacion">
-                <h2>Conformacion De Expediente</h2>
                 <p>Oara la conformacion del expediente se requeriran:</p>
                 <ol>
                     <li>Documentos Academicos</li>
@@ -165,9 +202,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_documentos_academicos">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_documentos_academicos">
+            <h2 class="titulo">Documentos Academicos</h2>
+
             <div class="informacion">
-                <h2>Documentos Academicos</h2>
                 <ol>
                     <li>Comprobante impreso del Registro Único de Movilidad Estudiantil.</li>
 
@@ -231,9 +269,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_documentos_personales">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_documentos_personales">
+            <h2 class="titulo">Documentos Personales</h2>
+
             <div class="informacion">
-                <h2>Documentos Personales</h2>
                 <ol>
                     <li>Copia de identificación oficial vigente que incluya fotografía y firma (Pasaporte mexicano o
                         credencial de elector).</li>
@@ -245,9 +284,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_documentos_tramites">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_documentos_tramites">
+            <h2 class="titulo">Documentos De Tramite</h2>
+
             <div class="informacion">
-                <h2>Documentos De Tramite</h2>
                 <ol>
                     <li>Formato de empate y autorización de asignaturas impreso y autorizado por tutor/a, Coordinación
                         de Programa Educativo y Jefatura de Departamento.</li>
@@ -287,9 +327,10 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_evaluacion_candidatos">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_evaluacion_candidatos">
+            <h2 class="titulo">Evaluacion Y Postulacion De Candidatos</h2>
+
             <div class="informacion">
-                <h2>Evaluacion Y Postulacion De Candidatos</h2>
                 <p>Las solicitudes recibidas correctamente serán evaluadas en la
                     UACJ por el Comité Operativo de Evaluación y Asignación de Becas
                     para la Movilidad Académica, Estudiantil y de Gestores, quienes
@@ -309,16 +350,19 @@
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos " id="descripcion_resultados">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_resultados">
+            <h2 class="titulo">Evaluacion Y Postulacion De Candidatos</h2>
+
             <div class="informacion">
-                <h2>Evaluacion Y Postulacion De Candidatos</h2>
                 <h3>Comité Operativo de Evaluación y Asignación de becas para la Movilidad Académica Estudiantil</h3>
                 <div class="favorable_no_favorable">
                     <div class="favorable">
-                        <p><img src="./assets/images/comprobado.png" alt=""><b>Favorable:</b> Participante continua con el proceso de forma regular.</p>
+                        <p><img src="./assets/images/comprobado.png" alt=""><b>Favorable:</b> Participante continua con
+                            el proceso de forma regular.</p>
                     </div>
                     <div class="no_favorable">
-                        <p><b><img src="./assets/images/fail.png" alt="">No favorable:</b>La aplicación es cancelada y el/la estudiante no puede continuar con el
+                        <p><b><img src="./assets/images/fail.png" alt="">No favorable:</b>La aplicación es cancelada y
+                            el/la estudiante no puede continuar con el
                             proceso.</p>
                     </div>
                 </div>
@@ -326,46 +370,57 @@
                 <h3>Universidad Receptora</h3>
                 <div class="favorable_no_favorable">
                     <div class="favorable">
-                        <p><img src="./assets/images/comprobado.png" alt=""><b>Carta de aceptación:</b> El/la participante puede realizar la estancia en dicha Institución. En ambos casos el/la estudiante será notificado a través del Sistema Único de Movilidad Académica.</p>
+                        <p><img src="./assets/images/comprobado.png" alt=""><b>Carta de aceptación:</b> El/la
+                            participante puede realizar la estancia en dicha Institución. En ambos casos el/la
+                            estudiante será notificado a través del Sistema Único de Movilidad Académica.</p>
                     </div>
                     <div class="no_favorable">
-                        <p><img src="./assets/images/fail.png" alt=""><b>Notificación de no aceptación:</b> El/la participante no puede continuar con el proceso.
-                            En ambos casos el/la estudiante será notificado a través del Sistema Único de Movilidad Académica.</p>
+                        <p><img src="./assets/images/fail.png" alt=""><b>Notificación de no aceptación:</b> El/la
+                            participante no puede continuar con el proceso.
+                            En ambos casos el/la estudiante será notificado a través del Sistema Único de Movilidad
+                            Académica.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="contenedor_descripcion_pasos oculto" id="descripcion_resultados">
+        <div class="contenedor_descripcion_pasos descripcion oculto" id="descripcion_cancelacion">
+            <h2 class="titulo">Cancelacion De Estancia Academica</h2>
+
             <div class="informacion">
-                <h2>Cancelacion De Estancia Academica</h2>
                 <p>
-                   <img src="./assets/images/fail.png" alt=""> La omisión o falsificación de documentos e información puede provocar la cancelación de la
+                    <img src="./assets/images/fail.png" alt=""> La omisión o falsificación de documentos e información
+                    puede provocar la cancelación de la
                     participación en el programa de movilidad.
                 </p>
 
                 <p>
-                    <img src="./assets/images/fail.png" alt="">Los estudiantes que reprueben dos o más asignaturas durante el semestre de aplicación no podrán
+                    <img src="./assets/images/fail.png" alt="">Los estudiantes que reprueben dos o más asignaturas
+                    durante el semestre de aplicación no podrán
                     continuar en el proceso.
                 </p>
 
                 <p>
-                    <img src="./assets/images/fail.png" alt="">No podrán participar quienes hayan realizado dos estancias académicas en el último año.
+                    <img src="./assets/images/fail.png" alt="">No podrán participar quienes hayan realizado dos
+                    estancias académicas en el último año.
                 </p>
 
                 <p>
-                    <img src="./assets/images/fail.png" alt="">En estancias internacionales, es obligatorio tramitar y presentar la visa de estudiante, además de
+                    <img src="./assets/images/fail.png" alt="">En estancias internacionales, es obligatorio tramitar y
+                    presentar la visa de estudiante, además de
                     cumplir con los requisitos establecidos por las autoridades migratorias, la institución receptora y
                     el país de destino.
                 </p>
 
                 <p>
-                    <img src="./assets/images/fail.png" alt="">El incumplimiento de los trámites solicitados en la convocatoria o en la carta compromiso ocasionará
+                    <img src="./assets/images/fail.png" alt="">El incumplimiento de los trámites solicitados en la
+                    convocatoria o en la carta compromiso ocasionará
                     que la estancia no sea acreditada.
                 </p>
 
                 <p>
-                    <img src="./assets/images/fail.png" alt="">También será motivo de incumplimiento no respetar las obligaciones y requisitos establecidos en el
+                    <img src="./assets/images/fail.png" alt="">También será motivo de incumplimiento no respetar las
+                    obligaciones y requisitos establecidos en el
                     Reglamento de Movilidad Académica, Estudiantil y de Gestores.
                 </p>
             </div>
@@ -374,8 +429,9 @@
     <footer>
     </footer>
     <script src="./assets/js/contacto.js"></script>
-    <script src="./assets/js/header.js"></script>
-    <script src="./assets/js/footer.js"></script>
+    <script src="./assets/js/header2.js"></script>
+    <script src="./assets/js/footer2.js"></script>
+    <script src="./assets/js/proceso_inscripcion.js"></script>
 </body>
 
 </html>

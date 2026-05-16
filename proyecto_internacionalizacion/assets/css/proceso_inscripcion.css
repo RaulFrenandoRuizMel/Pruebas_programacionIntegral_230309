@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter:wght@600;700&family=Roboto:wght@400;500&display=swap');
 
 main {
     height: auto;
@@ -14,32 +15,66 @@ main {
     justify-content: space-around;
 }
 
+.contenedor_titulo_pasos {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding: 2%;
+    background-color: #133257;
+    color: #f1f1f1;
+    border-radius: 15px 15px 0 0;
+    font-size: larger;
+    border-bottom: goldenrod solid 5px;
+}
+
 .contenedor_pasos {
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: auto;
-    background-color: antiquewhite;
+    max-height: 1072px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor_descripcion_pasos {
-    width: 40%;
+    width: 60%;
     height: auto;
     padding: 3%;
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    background: rgba(255, 255, 2555, 0.9);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5%;
+    border-bottom: rgba(218, 165, 32, 0.541) 2px solid;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
 }
 
 ol {
-  display: flex;
-  flex-direction: column; 
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2%;
 }
 
-ol ol{
+ol ol {
     margin-left: 60px;
 }
 
-ul ol{
+ul ol {
     margin-left: 60px;
 }
 
@@ -49,7 +84,6 @@ ul ol{
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 20px;
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
 }
 
 .paso_proceso {
@@ -59,79 +93,133 @@ ul ol{
     display: flex;
     align-items: center;
     cursor: pointer;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: rgba(218, 165, 32, 0.541) 2px solid;
 }
 
 .paso_proceso:hover {
     transform: scale(1.05);
-    background-color: #133257;
+    background-color: rgba(218, 165, 32, 0.61);
     color: #f1f1f1;
+}
+
+.paso_proceso span {
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+
+.numero {
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    border: none;
+    color: #f1f1f1;
+    font-size: larger;
+    margin-right: 2%;
 }
 
 .paso_activo {
-    background-color: #133257;
+    background-color: #214c80;
     color: #f1f1f1;
-
+    /*border-left: goldenrod 5px solid;*/
 }
 
 .paso_proceso:first-child {
-    background-color: #133257;
     border-radius: 15px 15px 0 0;
 }
 
 .paso_proceso:last-child {
-    background-color: #133257;
     border-radius: 0 0 15px 15px;
+    border-bottom: none;
+
 }
 
-.oculto{
+.oculto {
     display: none;
 }
 
-.informacion{
+.informacion {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 2%;
 }
 
-.favorable_no_favorable{
+
+.favorable_no_favorable {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: black 2px solid;
-    border-top: black 2px solid;
+    /*border-bottom: black 2px solid;
+    border-top: black 2px solid;*/
     padding: 2%;
 }
 
-.favorable{
+.favorable {
     width: 45%;
     height: auto;
-        padding: 2%;
-
-}
-
-.no_favorable{
-    width: 45%;
-    height: auto;
-    border-left: black 2px solid;
     padding: 2%;
-
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #3fa725;
+    border-radius: 15px;
 }
 
-.favorable img{
-    width: 15%;
+.no_favorable {
+    width: 45%;
+    height: auto;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #ff5722;
+    border-radius: 15px;
 }
 
-.no_favorable img{
-    width: 15%;
-}
-
-h2 img{
-    width: 10%;
-}
-p img{
+.favorable img {
     width: 5%;
 }
+
+.no_favorable img {
+    width: 5%;
+}
+
+h2 img {
+    width: 10%;
+}
+
+p img {
+    width: 3%;
+}
+/*
+p {
+    font-size: 1.5em;
+    font-family: "nexa", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+    */

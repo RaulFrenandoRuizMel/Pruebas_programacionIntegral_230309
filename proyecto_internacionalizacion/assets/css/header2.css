@@ -1,0 +1,99 @@
+/* ═══════════════════════════════════════
+   header.css
+   UACJ · Movilidad Académica Estudiantil
+═══════════════════════════════════════ */
+
+/* ── MAIN HEADER ── */
+header {
+  background: #f1f1f1;
+  border-bottom: 3px solid var(--gold);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: goldenrod 2px solid;
+}
+.header-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+}
+
+/* ── LOGO ── */
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.logo-block img{
+    width: 80%;
+}
+
+/* ── NAV ── */
+.header-nav {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.header-nav a {
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--text-body);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+  transition: 0.18s, color 0.18s;
+}
+.header-nav a:hover {
+    background-color: rgba(218, 165, 32, 0.61);
+  color: goldenrod;
+}
+.header-nav a.nav-active {
+    background-color: rgba(218, 165, 32, 0.61);
+  color: goldenrod;
+}
+.header-nav .nav-cta {
+  background: var(--navy);
+  color: var(--white) !important;
+  padding: 8px 18px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.header-nav .nav-cta:hover {
+  background: var(--navy-mid) !important;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .header-nav .nav-cta { display: none; }
+  .header-nav a { font-size: 0.8rem; padding: 8px 10px; }
+  .logo-sub { display: none; }
+}
+
+@media (max-width: 640px) {
+  .topbar-links { display: none; }
+  .header-inner { padding: 0 16px; }
+  .hero-compact { padding: 32px 16px 28px; }
+  .hero-compact h1 { font-size: 1.5rem; }
+  .header-nav {
+    gap: 2px;
+  }
+  .header-nav a {
+    font-size: 0.75rem;
+    padding: 6px 8px;
+  }
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}

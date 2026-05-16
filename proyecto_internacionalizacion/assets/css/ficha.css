@@ -2,22 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-@font-face {
-    font-family: fuenteTekoMedium;
-    src: url(../fuentes/teko/Teko-Medium.ttf);
-}
-
-@font-face {
-    font-family: fuenteTekoBold;
-    src: url(../fuentes/teko/Teko-Bold.ttf);
-}
-
-@font-face {
-    font-family: fuenteTekoBold;
-    src: url(../fuentes/teko/Teko-Bold.ttf);
 }
 
 main {
@@ -111,12 +95,12 @@ main {
     font-style: normal;
 }
 
-.descripcion p {
+/*.descripcion p {
     font-size: 1.5em;
     font-family: "nexa", sans-serif;
     font-weight: 300;
     font-style: normal;
-}
+}*/
 
 .boton_mas_informacion {
     width: 61%;
@@ -128,12 +112,12 @@ main {
     border-bottom: 2px solid #000000;
 }
 
-.boton_mas_informacion h2 {
+/*.boton_mas_informacion h2 {
     font-size: 2em;
     font-family: "nexa", sans-serif;
     font-weight: 300;
     font-style: normal;
-}
+}*/
 
 .info_btn {
     width: 30%;

@@ -16,18 +16,3 @@ header.innerHTML = `        <div class="logo_header">
                 <button class="btn_header"><a href="ficha_identidad.html">Ficha Identidad</a></button>
             </div>
         </nav>`
-
-/*const mis_reseñas_usuario = document.querySelector("#mis_reseñas_usuario");
-
-mis_reseñas_usuario.addEventListener("click", (event) => {
-    event.preventDefault();
-
-    const token = sessionStorage.getItem("token_sesion");
-    console.log("Token actual:", token);
-
-    if (!token || token === "null" || token === "undefined") {
-        window.location.href = "error.html";
-    } else {
-        window.location.href = "reseñas.html";
-    }
-});*/
