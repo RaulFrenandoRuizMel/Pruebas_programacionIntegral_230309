@@ -15,6 +15,7 @@
 
 
 </head>
+
 <body>
     <header>
 
@@ -58,40 +59,38 @@
             </section>
 
             <div class="contenedor_contacto" id="contacto">
-                <form action="" id="contact_form">
+                <form action="guardar_contacto.php" method="POST" id="contact_form">
+                    <input type="hidden" name="pagina_origen" value="ficha_identidad.html">
                     <h2>Contacto Internacionalizacion</h2>
                     <p>Contactate Con El Equipo de Internacionalizacion de La UACJ Para Obtener Mas Informacion Sobre El
                         Programa Que Te Interese</p>
 
-                    <input type="text" id="user_name" name="name" placeholder="Tu Nombre" required>
-                    <input type="text" id="user_email" name="email" placeholder="Tu Correo" required>
+                    <input type="text" id="user_name" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="text" id="user_email" name="correo" placeholder="Tu Correo" required>
                     <input type="text" id="id_matricula" name="matricula" placeholder="Tu Matricula" required>
-
                     <input type="text" id="cantidad_de_creditos" name="creditos"
                         placeholder="Cantidad de Creditos Obtenidos" required>
 
-                    <select name="glass_type" id="glass_type">
-                        <option value="francia">Programa Universidad De Paris</option>
-                        <option value="italia">Programa Universidad De Florencia</option>
-                        <option value="alemania">Programa Universidad Karlsruher Institut fur Technologie</option>
-                        <option value="usa">Programa Universidad De Nuevo Mexico</option>
-                        <option value="colombia">Programa Universidad De Antioquia</option>
+                    <select name="programa" id="glass_type">
+                        <option value="">-- Selecciona un programa --</option>
+                        <option value="Programa Universidad De Paris">Programa Universidad De Paris</option>
+                        <option value="Programa Universidad De Florencia">Programa Universidad De Florencia</option>
+                        <option value="Programa Universidad Karlsruher Institut fur Technologie">Programa Universidad
+                            Karlsruher Institut fur Technologie</option>
+                        <option value="Programa Universidad De Nuevo Mexico">Programa Universidad De Nuevo Mexico
+                        </option>
+                        <option value="Programa Universidad De Antioquia">Programa Universidad De Antioquia</option>
                     </select>
 
-                    <select name="carrera" id="nombre_carrera">
-                        <option value="francia">DDMI </option>
-                        <option value="italia">Mecatronica</option>
-                        <option value="alemania">Mecanica</option>
-                        <option value="usa">Arquitectura</option>
-                        <option value="colombia">Dise;o Grafico</option>
-                        <option value="colombia">Dise;o Industrial</option>
-                        <option value="colombia">Produccion Musical</option>
-                        <option value="colombia">Aeronautica Grafico</option>
-                        <option value="colombia">Ambiental</option>
-                        <option value="colombia">Ing. Biomedica</option>
+                    <select name="campus" id="nombre_carrera">
+                        <option value="">-- Selecciona tu campus --</option>
+                        <option value="IIT">IIT</option>
+                        <option value="IADA">IADA</option>
+                        <option value="ICB">ICB</option>
+                        <option value="ICSA">ICSA</option>
                     </select>
 
-                    <textarea name="message" id="message" placeholder="Detalles de la consulta" required></textarea>
+                    <textarea name="mensaje" id="message" placeholder="Detalles de la consulta" required></textarea>
 
                     <button type="submit" id="button">Enviar</button>
                 </form>
@@ -102,7 +101,7 @@
     <footer>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="./assets/js/contacto.js"></script>
     <script src="./assets/js/header2.js"></script>
     <script src="./assets/js/footer2.js"></script>
